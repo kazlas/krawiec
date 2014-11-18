@@ -1,12 +1,25 @@
 <html>
 <head>
   <link rel="stylesheet" href="css/round_style.css" type="text/css" media="all" />
-  
-    <style type='text/css'>
-	</style>  
+  <script src="js/jquery-1.11.1.js"></script>
+  <script src="js/jquery.corner.js"></script>
 </head>
 
 <body>
+
+<script>
+$(document).ready(function(){
+	
+  $("li.roundMenu").each(function( index ) {
+	 roundRightCorners ($(this));
+  })
+
+  function roundRightCorners (element) {
+	    $(element).corner("right");
+  }
+
+}); 
+</script>
 
   <ul>
     <li class="roundMenu">One

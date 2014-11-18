@@ -1,5 +1,3 @@
-li.roundMenu  {
-    background: #CCF;
-    border-radius: 1em;
-    behavior: url(pie/PIE.htc);
+li.roundMenu {
+	background-color: #6af;
 }
