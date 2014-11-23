@@ -1,4 +1,7 @@
 {
-"af" : "Alliance Franciase <a href = \"#\">link</a>  ", 
-"oval" : "Oval"
+"af" : {
+	"pl" : "Alliance Franciase <a href = \"#\">link</a>", 
+	"en" : "english version AF"
+	}, 
+"oval" : {"pl":"Oval PL", "en" : "english version Oval"}
 }

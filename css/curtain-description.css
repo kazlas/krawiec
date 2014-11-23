@@ -1,0 +1,11 @@
+#divCurtain {
+	position:absolute;
+	left:170px;	
+	height:400px;
+	width:800px;
+}
+.description {
+	background:#888;
+	opacity : 0.5;
+}
+

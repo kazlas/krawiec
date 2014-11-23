@@ -4,24 +4,32 @@
 <head>
 	<title>K r a WWW i e c . pl - Strony WWW szyte na miar!</title>
 	<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=iso-8859-2">
+	<LINK REL="stylesheet" TYPE="text/css" HREF="./css/curtain-description.css" > 
+	<LINK REL="stylesheet" TYPE="text/css" HREF="./css/menu-buttons.css" > 
 	<script language="JavaScript" src="js/jquery-1.11.1.js"></script>	
     <script language="JavaScript" src="js/description-show.js" ></script>
+    <script language="JavaScript" src="js/menu-buttons.js" ></script>
 </head>
 
 <body>
 
+<div id="divCurtain" class="description" >Welcome</div>
+<script language="JavaScript" > 
+ function setDescription (itemMenu){
+	 setCurrentMenuDescription(itemMenu);
+	 highliteCurrentMenu(itemMenu);
+ }
+</script>
 
-<div id="divCurtain" style="background:#888;height:100px;width:210px;position:absolute;left:170px">Welcome</div>
-
-		<ul class="menu" id="menu">
-			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="af">Alliance Francaise</a></li>
-			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="oval">Oval</a></li>
-			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="konie">Konie.gda.pl</a></li>
-			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="sth">STH Design</a></li>
-			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="artelier">Artelier</a></li>
-			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="interim">Interim</a></li>
-			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="nasze">Nasze Przedszkole</a></li>
-		</ul>
+<ul  id="divMenu" class="menu">
+	<li><a href="#" onClick="setDescription(this);" value="af">Alliance Francaise</a></li>
+	<li><a href="#" onClick="setDescription(this);" value="oval">Oval</a></li>
+	<li><a href="#" onClick="setDescription(this);" value="konie">Konie.gda.pl</a></li>
+	<li><a href="#" onClick="setDescription(this);" value="sth">STH Design</a></li>
+	<li><a href="#" onClick="setDescription(this);" value="artelier">Artelier</a></li>
+	<li><a href="#" onClick="setDescription(this);" value="interim">Interim</a></li>
+	<li><a href="#" onClick="setDescription(this);" value="nasze">Nasze Przedszkole</a></li>
+</ul>
 
 
 

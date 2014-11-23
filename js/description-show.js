@@ -1,21 +1,21 @@
 (function($, window) { //Module starts
-
-  //Make accessible outside module: setCurrentMenuDescriptionId(..) 
-  window.setCurrentMenuDescriptionId = function setCurrentMenuDescriptionId (itemMenu) { 
+  var currentMenuDescriptionId;
+  
+  //Make this function visible outside module
+  window.setCurrentMenuDescription = function setCurrentMenuDescription (itemMenu) { 
 	currentMenuDescriptionId = $(itemMenu).attr("value");
   };
-  var currentMenuDescriptionId;
   
 
 $(document).ready(function(){
   	
-  $("ul#menu").click(function(){
+  $("ul#divMenu").click(function(){
 	clearDescritpion("div#divCurtain");
 	animateLeft("div#divCurtain");
 	animateRight ("div#divCurtain");
 	
     setTimeout(function () {
-	    showDescription ("div#divCurtain", currentMenuDescriptionId)}
+	    showDescription ("div#divCurtain", currentMenuDescriptionId, "pl")}
 	    , 1000);
   });
 
@@ -48,8 +48,8 @@ $(document).ready(function(){
 
   }
   
-  function showDescription (displayElement, descriptionId) {
-	var descripton = descriptionsJson[descriptionId];
+  function showDescription (displayElement, descriptionId, lang) {
+	var descripton = descriptionsJson[descriptionId][lang];
 	$(displayElement).html(descripton); //.animate({fontSize:"2em"},"slow");
   }
 
