@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html>
+<head>
+	<title>K r a WWW i e c . pl - Strony WWW szyte na miar!</title>
+	<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=iso-8859-2">
+	<script language="JavaScript" src="js/jquery-1.11.1.js"></script>	
+</head>
+
+<body>
+
+
+<script> 
+//Globals
+var currentItemMenuClicked;
+  function menuItemClicked (itemMenu) { //global access
+	currentItemMenuClicked = $(itemMenu).attr("value");
+  };
+
+$(document).ready(function(){
+	
+  $("ul#menu").click(function(){
+	animateLeft("div#divDemo");
+	animateRight ("div#divDemo");
+	
+    //$("div#divDemo").animate({fontSize:"5em"},"slow");
+
+    showContentForMenuItem (currentItemMenuClicked);
+    
+  });
+  
+  function animateRight (element) {
+    $(element).animate({left:"+=170px",opacity:"0.5"},"slow");
+  }
+  
+  function animateLeft (element) {
+	  $(element).animate({left:"-=170px",opacity:"1"},"slow");
+  }
+
+  function showContentForMenuItem (itemMenu) {
+	$("div#divDemo").text(itemMenu);
+  }
+
+  
+  
+});
+</script>
+
+
+
+
+<div id="divDemo" style="background:#98bf21;height:100px;width:210px;position:absolute;left:170px">jQuery</div>
+
+		<ul class="menu" id="menu">
+			<li><a href="#" onClick="menuItemClicked(this);" value="af">Alliance Francaise</a></li>
+			<li><a href="#" onClick="menuItemClicked(this);" value="ov">Oval</a></li>
+			<li><a href="#">Konie.gda.pl</a></li>
+			<li><a href="#">STH Design</a></li>
+			<li><a href="#">Artelier</a></li>
+			<li><a href="#">Interim</a></li>
+			<li><a href="#">Nasze Przedszkole</a></li>
+		</ul>
+
+
+
+</body>
+</html>
