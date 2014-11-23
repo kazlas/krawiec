@@ -5,81 +5,22 @@
 	<title>K r a WWW i e c . pl - Strony WWW szyte na miar!</title>
 	<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=iso-8859-2">
 	<script language="JavaScript" src="js/jquery-1.11.1.js"></script>	
+    <script language="JavaScript" src="js/description-show.js" ></script>
 </head>
 
 <body>
 
 
-<script> 
-//Globals
-var currentMenuDescriptionId;
-  function menuItemClicked (itemMenu) { 
-	currentMenuDescriptionId = $(itemMenu).attr("value");
-  };
-
-    
-var descriptionsJson = (function() {
-        var json = null;
-        $.ajax({
-            'async': false,
-            'global': false,
-            'url': "json/getDescriptions.json",
-            'dataType': "json",
-            'success': function (data) {
-                json = data;
-            }
-        });
-        return json;
-    })();
-
-
-$(document).ready(function(){
-  	
-  $("ul#menu").click(function(){
-	clearDescritpion("div#divDemo");
-	animateLeft("div#divDemo");
-	animateRight ("div#divDemo");
-    //$("div#divDemo").animate({fontSize:"5em"},"slow");
-
-    var show = (function() { return showDescription (currentMenuDescriptionId, "div#divDemo");}) ;
-    setTimeout(show, 1000);
-    
-  });
-  
-  function animateRight (element) {
-    $(element).animate({left:"+=170px",opacity:"0.5"},"slow");
-  }
-  
-  function animateLeft (element) {
-	  $(element).animate({left:"-=170px",opacity:"1"},"slow");
-  }
-
-  function clearDescritpion (displayElement) {
-	  $(displayElement).text("");
-  }
-  
-  function showDescription (descriptionId, displayElement) {
-	var descripton = descriptionsJson[descriptionId];
-	$(displayElement).text(descripton);
-	$(displayElement).animate({fontSize:"2em"},"slow");
-  }
-
-});
-</script>
-
-
-
-
-<div id="divDemo" style="background:#98bf21;height:100px;width:210px;position:absolute;left:170px">jQuery</div>
+<div id="divCurtain" style="background:#888;height:100px;width:210px;position:absolute;left:170px">Welcome</div>
 
 		<ul class="menu" id="menu">
-			<li><a href="#" onClick="menuItemClicked(this);" value="af">Alliance Francaise</a></li>
-			<li><a href="#" onClick="menuItemClicked(this);" value="ov">Oval</a></li>
-			<li><a href="#">Konie.gda.pl</a></li>
-			<li><a href="#">STH Design</a></li>
-			<li><a href="#">Artelier</a></li>
-			<li><a href="#">Interim</a></li>
-			<li><a href="#">Nasze Przedszkole</a></li>
+			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="af">Alliance Francaise</a></li>
+			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="oval">Oval</a></li>
+			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="konie">Konie.gda.pl</a></li>
+			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="sth">STH Design</a></li>
+			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="artelier">Artelier</a></li>
+			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="interim">Interim</a></li>
+			<li><a href="#" onClick="setCurrentMenuDescriptionId(this);" value="nasze">Nasze Przedszkole</a></li>
 		</ul>
 
 
