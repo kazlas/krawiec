@@ -9,14 +9,8 @@
 
 $(document).ready(function(){
   	
-  $("ul#divMenu").click(function(){
-	clearDescritpion("div#divCurtain");
-	animateLeft("div#divCurtain");
-	animateRight ("div#divCurtain");
-	
-    setTimeout(function () {
-	    showDescription ("div#divCurtain", currentMenuDescriptionId, "pl")}
-	    , 1000);
+  $("ul#divMenu").click(function() {
+	  animateDescription ("div#divCurtain");
   });
 
   var descriptionsJson = (function() {
@@ -34,14 +28,29 @@ $(document).ready(function(){
   })();
 
   
+   function animateDescription (element) {
+	   
+	$(element).finish();  
+	clearDescritpion(element);
+	animateLeft (element);
+	animateRight (element);
+		
+	setTimeout(function () {
+	    showDescription (element, currentMenuDescriptionId, "pl")}
+	    , 1000);
+  }
+  
   function animateRight (element) {
     $(element).animate({left:"+=170px",opacity:"0.5"},"slow");
   }
   
   function animateLeft (element) {
-	  $(element).animate({left:"-=170px",opacity:"1"},"slow");
+    $(element).animate({left:"-=170px",opacity:"1"},"slow");
+
   }
 
+  
+  
   function clearDescritpion (displayElement) {
 	  $(displayElement).text("");
   	  $(displayElement).css("fontSize", "1em");
