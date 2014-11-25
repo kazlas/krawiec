@@ -14,11 +14,10 @@ $(document).ready(function(){
   });
 
 
-  
-   function animateDescription (element) {
+  function animateDescription (element) {
 	   
 	$(element).finish();  
-	clearDescritpion(element);
+	clearDescription(element);
 	animateLeft (element);
 	animateRight (element);
 
@@ -26,37 +25,47 @@ $(document).ready(function(){
 	    showDescription (element, currentMenuDescriptionId, "pl")}
 	    , 1000);
   }
-  
+
   function animateRight (element) {
     $(element).animate({left:"+=170px",opacity:"0.5"},"slow");
 
   }
-  
+
   function animateLeft (element) {
     $(element).animate({left:"-=170px",opacity:"0.1"},"slow");
 
   }
 
-  function clearDescritpion (displayElement) {
+  function clearDescription (displayElement) {
 	  $(displayElement).text("");
   }
-  
+
   function showDescription (displayElement, descriptionId, lang) {
 	var descripton = getDescription (descriptionId, lang);
 	var pictures = getPictures (descriptionId);
-	var pictureHtml = getPictureHtml (pictures[0]);
+	var pictureHtml = getPictureHtml (pictures[0], 300);
 	
 	$(displayElement).html(descripton + "<br>" + pictureHtml);
   }
-  
-  function getPictureHtml (picturelink) {
+
+  function getPictureHtml (picturelink, height, width) {
 	  var html = "<img src=\"";
 	  html += picturelink;
-	  html += "\">";
+	  html += "\"";
+	  
+	  if (typeof height === "number") {
+		  html += " height=\"" +height+ "\"";
+	  }
+	  if (typeof width === "number") {
+		  html += " width=\"" +width+ "\"";
+	  }
+
+	  html += ">";
+
 	  return html;
   }
 
-  
+
 });
 
 
