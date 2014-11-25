@@ -13,19 +13,6 @@ $(document).ready(function(){
 	  animateDescription ("div#divCurtain");
   });
 
-  var descriptionsJson = (function() {
-        var json = null;
-        $.ajax({
-            'async': false,
-            'global': false,
-            'url': "json/getDescriptions.json",
-            'dataType': "json",
-            'success': function (data) {
-                json = data;
-            }
-        });
-        return json;
-  })();
 
   
    function animateDescription (element) {
@@ -50,8 +37,6 @@ $(document).ready(function(){
 
   }
 
-  
-  
   function clearDescritpion (displayElement) {
 	  $(displayElement).text("");
   }
@@ -71,13 +56,6 @@ $(document).ready(function(){
 	  return html;
   }
 
-  function getDescription (descriptionId, lang) {
-	return descriptionsJson[descriptionId][lang]["content"];
-  }
-  
-  function getPictures (descriptionId) {
-	return descriptionsJson[descriptionId]["pictures"];
-  }
   
 });
 
