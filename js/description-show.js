@@ -34,7 +34,7 @@ $(document).ready(function(){
 	clearDescritpion(element);
 	animateLeft (element);
 	animateRight (element);
-		
+
 	setTimeout(function () {
 	    showDescription (element, currentMenuDescriptionId, "pl")}
 	    , 1000);
@@ -42,10 +42,11 @@ $(document).ready(function(){
   
   function animateRight (element) {
     $(element).animate({left:"+=170px",opacity:"0.5"},"slow");
+
   }
   
   function animateLeft (element) {
-    $(element).animate({left:"-=170px",opacity:"1"},"slow");
+    $(element).animate({left:"-=170px",opacity:"0.1"},"slow");
 
   }
 
@@ -59,7 +60,7 @@ $(document).ready(function(){
   
   function showDescription (displayElement, descriptionId, lang) {
 	var descripton = descriptionsJson[descriptionId][lang];
-	$(displayElement).html(descripton); //.animate({fontSize:"2em"},"slow");
+	$(displayElement).html(descripton);
   }
 
     
