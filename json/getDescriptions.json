@@ -1,7 +1,31 @@
-{
-"af" : {
-	"pl" : "Alliance Franciase <a href = \"#\">link</a>", 
-	"en" : "english version AF"
-	}, 
-"oval" : {"pl":"Oval PL", "en" : "english version Oval"}
+﻿{
+    "af": {
+        "pl": {
+            "title": "Alliance Franciase",
+            "content": "<a href=\"#\">link</a> zażółć gęślą jaźń"
+        },
+        "en": {
+            "title": "Oval",
+            "content": "english version AF"
+        },
+        "pictures": [
+            "img/jellyfish.jpg",
+            "",
+            ""
+        ]
+    },
+    "oval": {
+        "pl": {
+            "title": "Oval",
+            "content": "<a href=\"#\">link</a> raz dwa trzy"
+        },
+        "en": {
+            "title": "Oval",
+            "content": "english version Oval"
+        },
+        "pictures": [
+            "",
+            ""
+        ]
+    }
 }

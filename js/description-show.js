@@ -54,16 +54,31 @@ $(document).ready(function(){
   
   function clearDescritpion (displayElement) {
 	  $(displayElement).text("");
-  	  $(displayElement).css("fontSize", "1em");
-
   }
   
   function showDescription (displayElement, descriptionId, lang) {
-	var descripton = descriptionsJson[descriptionId][lang];
-	$(displayElement).html(descripton);
+	var descripton = getDescription (descriptionId, lang);
+	var pictures = getPictures (descriptionId);
+	var pictureHtml = getPictureHtml (pictures[0]);
+	
+	$(displayElement).html(descripton + "<br>" + pictureHtml);
+  }
+  
+  function getPictureHtml (picturelink) {
+	  var html = "<img src=\"";
+	  html += picturelink;
+	  html += "\">";
+	  return html;
   }
 
-    
+  function getDescription (descriptionId, lang) {
+	return descriptionsJson[descriptionId][lang]["content"];
+  }
+  
+  function getPictures (descriptionId) {
+	return descriptionsJson[descriptionId]["pictures"];
+  }
+  
 });
 
 
