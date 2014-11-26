@@ -13,11 +13,11 @@
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : "\"Widzisz, ten pomysł z cenami na stronie. To chyba będzie niedobry pomysł, jak te ceny będą - to konkurencja też je widzi, prawda?\" \"Tak, widzą. Ale gdzie wolałabyś się zapisać: na kurs z ceną czy bez ceny ?\""
+			"content" : "\"Widzi Pan, ten pomysł z cenami na stronie. To chyba będzie niedobry pomysł, jak te ceny będą - to konkurencja też je widzi, prawda?\" \"Tak, widzą. Ale gdzie wolałaby Pani się zapisać: na kurs z ceną czy bez ceny ?\""
 		},
 		{
 			"title" : "Potem:", 
-			"content" : "\"Wiesz co, teraz wszyscy dzwonią i wszyscy wiedzą czego chcą: chcą się zapisać do tego samego nauczyciela. Bo go lubią. To może by te nazwiska teraz usunąć ?\" – \"A może zróbcie więcej kursów?\""
+			"content" : "\"Proszę Pana, teraz wszyscy dzwonią i wiedzą czego chcą: chcą się zapisać do tego jednego nauczyciela. Jego najbardziej lubią, ale tam już jest komplet. To może by te nazwiska nauczycieli teraz usunąć ?\" – \"A może lepiej zrobić więcej kursów?\""
 		}
 	]
 
@@ -59,11 +59,11 @@
 		},
 		{
 			"title" : "Przedtem:", 
-			"content" : "co może być interesującego w masie jajowej?<br>\"Rozwijamy się, nasze maszyny potrafią wybijać kilka tysięcy jaj na godzinę, cysternę ostatnio wysłaliśmy z tym. Skorupki utylizujemy, to widzisz wszystko jest zautomatyzowane, pragniemy podwyższyć poziom naszej obsługi i bezpieczeństwa klientów, ale oni tego mogą nie znać, to nowość.\" "
+			"content" : "Co może być interesującego w masie jajowej?<br>\"Rozwijamy się, nasze maszyny potrafią wybijać kilka tysięcy jaj na godzinę, cysternę ostatnio wysłaliśmy z tym. Skorupki utylizujemy, to wszystko jest zautomatyzowane, pragniemy podwyższyć poziom naszej obsługi i bezpieczeństwa klientów poprzez zakup zaawansowanych technologii produkcji, ale potencjalni klienci tego mogą nie znać, to nowość.\" "
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : "\"To są piekarze, cukiernicy, producenci likierów. Oni nie znają się na maszynach, pasteryzacji i homogenizacji żółtka i białka. Po co mają kupować tą masę jajową? Bo co im to daje? Wiecie?\" – \"Bo mają problem z głowy. Bo nie zatrują jedzenia salmonellą. A to są wciąż normalne jajka.\" – \"Czyli wygoda. Bezpieczeństwo. I zdrowie. I takie właśnie sekcje zrobimy na stronie.\""
+			"content" : "\"To są piekarze, cukiernicy, producenci likierów. Oni nie znają się na maszynach, pasteryzacji i homogenizacji żółtka i białka. Po co mają kupować tą masę jajową? Bo co im to daje? Na pewno Państwo wiedzą..\" – \"Bo mają problem z głowy. Bo nie zatrują jedzenia salmonellą. A to są wciąż normalne jajka.\" – \"Czyli wygoda. Bezpieczeństwo. I zdrowie. Tak właśnie to zrobimy.\""
 		},
 		{
 			"title" : "Potem:", 
@@ -103,7 +103,7 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "stajnia - hodowca koni."
+			"content" : "Stajnia - hodowca koni."
 		},
 		{
 			"title" : "Przedtem:", 
@@ -115,7 +115,7 @@
 		},
 		{
 			"title" : "Potem:", 
-			"content" : "po roku. \"Ja Ciebie bardzo proszę usuń tego konia ze strony. Bo do mnie teraz ludzie przyjeżdżają z dziećmi i one się pytają, gdzie jest ten koń, który mówi. Ja go przecież sprzedałem w tym roku.\" – \"To tylko imię wykasuję. Koń to koń – przecież każdy mówi.\""
+			"content" : "Po roku. \"Ja Ciebie bardzo proszę usuń tego konia ze strony. Bo do mnie teraz ludzie przyjeżdżają z dziećmi i one się pytają, gdzie jest ten koń, który mówi. Ja go przecież sprzedałem w tym roku.\" – \"To tylko imię wykasuję. Koń to koń – przecież każdy mówi.\""
 		}
 	]
 
