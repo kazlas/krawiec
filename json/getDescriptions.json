@@ -1,7 +1,7 @@
 ﻿{
     "af": {
         "pl": {
-            "title": "Alliance Franciase",
+            "title": "Alliance Française",
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
@@ -13,11 +13,11 @@
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : "\"Widzi Pan, ten pomysł z cenami na stronie. To chyba będzie niedobry pomysł, jak te ceny będą - to konkurencja też je widzi, prawda?\" \"Tak, widzą. Ale gdzie wolałaby Pani się zapisać: na kurs z ceną czy bez ceny ?\""
+			"content" : "\"Widzi Pan, ten pomysł z cenami na stronie. To chyba nie będzie dobre - przecież konkurencja też widzi, prawda?\" - \"Tak, widzą. Ale czy skłonna byłaby Pani zapisać się na kurs bez ceny ?\""
 		},
 		{
 			"title" : "Potem:", 
-			"content" : "\"Proszę Pana, teraz wszyscy dzwonią i wiedzą czego chcą: chcą się zapisać do tego jednego nauczyciela. Jego najbardziej lubią, ale tam już jest komplet. To może by te nazwiska nauczycieli teraz usunąć ?\" – \"A może lepiej zrobić więcej kursów?\""
+			"content" : "\"Proszę Pana, teraz wszyscy dzwonią i wiedzą czego chcą: chcą się zapisać do jednego, tego samego nauczyciela. Ma renomę, ale tam już jest komplet. To może by te nazwiska nauczycieli teraz usunąć ?\" – \"Czy nie lepiej zorganizować więcej kursów?\""
 		}
 	]
 
@@ -59,15 +59,15 @@
 		},
 		{
 			"title" : "Przedtem:", 
-			"content" : "Co może być interesującego w masie jajowej?<br>\"Rozwijamy się, nasze maszyny potrafią wybijać kilka tysięcy jaj na godzinę, cysternę ostatnio wysłaliśmy z tym. Skorupki utylizujemy, to wszystko jest zautomatyzowane, pragniemy podwyższyć poziom naszej obsługi i bezpieczeństwa klientów poprzez zakup zaawansowanych technologii produkcji, ale potencjalni klienci tego mogą nie znać, to nowość.\" "
+			"content" : "\"Rozwijamy się, nasze maszyny potrafią wybijać kilka tysięcy jaj na godzinę, cysternę ostatnio wysłaliśmy z tym. Skorupki utylizujemy, to wszystko jest zautomatyzowane, pragniemy podwyższyć poziom naszej obsługi i bezpieczeństwa klientów poprzez zakup zaawansowanych technologii produkcji, ale potencjalni klienci tego mogą nie znać, to nowość.\" "
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : "\"To są piekarze, cukiernicy, producenci likierów. Oni nie znają się na maszynach, pasteryzacji i homogenizacji żółtka i białka. Po co mają kupować tą masę jajową? Bo co im to daje? Na pewno Państwo wiedzą..\" – \"Bo mają problem z głowy. Bo nie zatrują jedzenia salmonellą. A to są wciąż normalne jajka.\" – \"Czyli wygoda. Bezpieczeństwo. I zdrowie. Tak właśnie to zrobimy.\""
+			"content" : "\"To są piekarze, cukiernicy, producenci likierów. Oni nie znają się na maszynach, pasteryzacji i homogenizacji żółtka i białka. Po co mają kupować tą masę jajową? Bo co im to daje? Pewnie Państwo to wszystko wiedzą..\" – \"Bo mają problem z głowy. Bo nie zatrują jedzenia salmonellą. A to są wciąż normalne jajka.\" – \"Czyli? Wygoda. Bezpieczeństwo. Zdrowie.\""
 		},
 		{
 			"title" : "Potem:", 
-			"content" : ""
+			"content" : "\"Zaczynamy produkować biszkopty. Trzeba będzie to dodać na stronie. Będziemy w kontacie.\""
 		}
 	]
 
@@ -114,8 +114,12 @@
 			"content" : "\"Wiesz, no niby ładnie. Ale takich stron są setki. \" – \"Bo to miała być taka zwyczajna oferta. Ale pomyślę.\""
 		},
 		{
+			"title" : "", 
+			"content" : "(Po tygodniu: \"Uśmiałam się! dawaj tą drugą stronę.\")"
+		},
+		{
 			"title" : "Potem:", 
-			"content" : "Po roku. \"Ja Ciebie bardzo proszę usuń tego konia ze strony. Bo do mnie teraz ludzie przyjeżdżają z dziećmi i one się pytają, gdzie jest ten koń, który mówi. Ja go przecież sprzedałem w tym roku.\" – \"To tylko imię wykasuję. Koń to koń – przecież każdy mówi.\""
+			"content" : "Po roku. \"Ja Ciebie bardzo proszę usuń tego gadającego konia ze strony. Bo do mnie teraz ludzie przyjeżdżają z dziećmi i one się pytają, gdzie jest ten koń, który mówi. Ja go przecież sprzedałem w tym roku.\""
 		}
 	]
 
@@ -152,19 +156,19 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "szkoła artystyczna"
+			"content" : "Szkoła artystyczna"
 		},
 		{
 			"title" : "Przedtem:", 
-			"content" : "\"Tak ma strona wyglądać. Szybko muszę to mieć, bo teraz lato, a na jesieni będą już zapisy. \""
+			"content" : "\"I tak ma ta strona wyglądać. Szybko muszę to mieć, bo teraz lato, a na jesieni będą już zapisy. \""
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : "\"Dzięki że szybko. A teraz zrób, żebym mogła sama wszystko zmieniać\" – \"Ale to trzeba  zrobić inaczej, od nowa! To musi być cały system do zarządzania treścią…\" – \"Co?\""
+			"content" : "\"Dzięki że szybko. A teraz zrób, żebym mogła sama wszystko zmieniać\" – \"Ale to trzeba  zrobić całkiem inaczej! To musi być cały system do zarządzania treścią…\" – \"Co?\""
 		},
 		{
 			"title" : "Potem:", 
-			"content" : "\"Inni, co takich rzeczy używają, mówią że na mojej stronie jest to lepsze. Że u mnie łatwiej się zmienia teksty, zdjęcia i że wszystko mogę wpisać.\""
+			"content" : "\"Inni, co takich rzeczy używają, mówią że na mojej stronie jest to lepsze. Że u mnie łatwiej się zmienia teksty, zdjęcia i że wszystko mogę wpisać sama.\""
 		}
 	]
 
