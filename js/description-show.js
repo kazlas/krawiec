@@ -68,6 +68,13 @@ $(document).ready(function(){
 	  html += descriptionJson["title"];
 	  html += "</h2>";
 	  
+	  var paragraphs = descriptionJson["paragraphs"];
+	  
+	  $.each (paragraphs, function (index, paragraph) {
+		  	html += "<h3>" +paragraph["title"]+ "</h3>";
+		  	html += paragraph["content"];
+		  }
+	  )
 	  
 	  return html;
   }

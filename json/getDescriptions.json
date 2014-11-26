@@ -2,7 +2,7 @@
     "af": {
         "pl": {
             "title": "Alliance Franciase",
-            "pagraphs": [
+            "paragraphs": [
 		{
 			"title" : "Przedtem:", 
 			"content" : ""
@@ -20,7 +20,7 @@
         },
         "en": {
             "title": "Alliance Franciase",
-            "pagraphs": [
+            "paragraphs": [
 		{
 			"title" : "Before:", 
 			"content" : ""
@@ -48,7 +48,7 @@
     ,"oval": {
         "pl": {
             "title": "Oval",
-            "pagraphs": [
+            "paragraphs": [
 		{
 			"title" : "Przedtem:", 
 			"content" : ""
@@ -66,7 +66,7 @@
         },
         "en": {
             "title": "Oval",
-            "pagraphs": [
+            "paragraphs": [
 		{
 			"title" : "Before:", 
 			"content" : ""
@@ -92,7 +92,7 @@
     ,"horses": {
         "pl": {
             "title": "konie.gda.pl",
-            "pagraphs": [
+            "paragraphs": [
 		{
 			"title" : "Przedtem:", 
 			"content" : ""
@@ -110,7 +110,7 @@
         },
         "en": {
             "title": "konie.gda.pl",
-            "pagraphs": [
+            "paragraphs": [
 		{
 			"title" : "Before:", 
 			"content" : ""
@@ -137,7 +137,7 @@
     ,"artelier": {
         "pl": {
             "title": "Artelier",
-            "pagraphs": [
+            "paragraphs": [
 		{
 			"title" : "Przedtem:", 
 			"content" : ""
@@ -155,7 +155,7 @@
         },
         "en": {
             "title": "konie.gda.pl",
-            "pagraphs": [
+            "paragraphs": [
 		{
 			"title" : "Before:", 
 			"content" : ""
