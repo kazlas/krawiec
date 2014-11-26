@@ -2,7 +2,7 @@
 
   //Make this functions visible outside module
   window.getDescription = function getDescription (descriptionId, lang) {
-	return descriptionsJson[descriptionId][lang]["content"];
+	return descriptionsJson[descriptionId][lang];
   }
   
   window.getPictures =   function getPictures (descriptionId) {

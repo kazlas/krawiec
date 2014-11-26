@@ -2,30 +2,179 @@
     "af": {
         "pl": {
             "title": "Alliance Franciase",
-            "content": "<a href=\"#\">link</a> zażółć gęślą jaźń"
+            "pagraphs": [
+		{
+			"title" : "Przedtem:", 
+			"content" : ""
+		},
+		{
+			"title" : "W trakcie", 
+			"content" : ""
+		},
+		{
+			"title" : "Potem:", 
+			"content" : ""
+		}
+	]
+
         },
         "en": {
-            "title": "Oval",
-            "content": "english version AF"
+            "title": "Alliance Franciase",
+            "pagraphs": [
+		{
+			"title" : "Before:", 
+			"content" : ""
+		},
+		{
+			"title" : "During:", 
+			"content" : ""
+		},
+		{
+			"title" : "After:", 
+			"content" : ""
+		}
+	]
+
         },
         "pictures": [
             "img/jellyfish.jpg",
             "",
             ""
         ]
-    },
-    "oval": {
+    }
+
+
+
+    ,"oval": {
         "pl": {
             "title": "Oval",
-            "content": "<a href=\"#\">link</a> raz dwa trzy"
+            "pagraphs": [
+		{
+			"title" : "Przedtem:", 
+			"content" : ""
+		},
+		{
+			"title" : "W trakcie", 
+			"content" : ""
+		},
+		{
+			"title" : "Potem:", 
+			"content" : ""
+		}
+	]
+
         },
         "en": {
             "title": "Oval",
-            "content": "english version Oval"
+            "pagraphs": [
+		{
+			"title" : "Before:", 
+			"content" : ""
+		},
+		{
+			"title" : "During:", 
+			"content" : ""
+		},
+		{
+			"title" : "After:", 
+			"content" : ""
+		}
+	]
+
         },
         "pictures": [
             "",
             ""
         ]
     }
+
+
+    ,"horses": {
+        "pl": {
+            "title": "konie.gda.pl",
+            "pagraphs": [
+		{
+			"title" : "Przedtem:", 
+			"content" : ""
+		},
+		{
+			"title" : "W trakcie", 
+			"content" : ""
+		},
+		{
+			"title" : "Potem:", 
+			"content" : ""
+		}
+	]
+
+        },
+        "en": {
+            "title": "konie.gda.pl",
+            "pagraphs": [
+		{
+			"title" : "Before:", 
+			"content" : ""
+		},
+		{
+			"title" : "During:", 
+			"content" : ""
+		},
+		{
+			"title" : "After:", 
+			"content" : ""
+		}
+	]
+
+        },
+        "pictures": [
+            "",
+            ""
+        ]
+    }
+
+
+
+    ,"artelier": {
+        "pl": {
+            "title": "Artelier",
+            "pagraphs": [
+		{
+			"title" : "Przedtem:", 
+			"content" : ""
+		},
+		{
+			"title" : "W trakcie", 
+			"content" : ""
+		},
+		{
+			"title" : "Potem:", 
+			"content" : ""
+		}
+	]
+
+        },
+        "en": {
+            "title": "konie.gda.pl",
+            "pagraphs": [
+		{
+			"title" : "Before:", 
+			"content" : ""
+		},
+		{
+			"title" : "During:", 
+			"content" : ""
+		},
+		{
+			"title" : "After:", 
+			"content" : ""
+		}
+	]
+
+        },
+        "pictures": [
+            "",
+            ""
+        ]
+    }
+
 }

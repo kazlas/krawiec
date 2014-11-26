@@ -56,9 +56,10 @@ $(document).ready(function(){
 	var pictures = getPictures (descriptionId);
 	var pictureHtml = getPictureHtml (pictures[0], 300);
 	
-	$(displayElement).html(descripton + "<br>" + pictureHtml);
+	$(displayElement).html(descripton["title"] + "<br>" + pictureHtml);
   }
 
+  
   function getPictureHtml (picturelink, height, width) {
 	  var html = "<img src=\"";
 	  html += picturelink;
