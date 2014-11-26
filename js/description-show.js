@@ -51,17 +51,29 @@ $(document).ready(function(){
 	  $(displayElement).html("");
   }
 
+
   function showDescription (displayElement, descriptionId, lang) {
-	var descripton = getDescription (descriptionId, lang);
+	var description = getDescription (descriptionId, lang);
+	var descriptionHtml = getDescriptionHtml (description);
+	
 	var pictures = getPictures (descriptionId);
 	var pictureHtml = getPictureHtml (pictures[0], 300);
 	
-	$(displayElement).html(descripton["title"] + "<br>" + pictureHtml);
+	$(displayElement).html(descriptionHtml + pictureHtml);
   }
 
   
+  function getDescriptionHtml (descriptionJson) {
+	  var html = "<h2>";
+	  html += descriptionJson["title"];
+	  html += "</h2>";
+	  
+	  
+	  return html;
+  }
+
   function getPictureHtml (picturelink, height, width) {
-	  var html = "<img src=\"";
+	  var html = "<br clear all><img src=\"";
 	  html += picturelink;
 	  html += "\"";
 	  
