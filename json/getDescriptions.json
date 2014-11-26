@@ -4,16 +4,20 @@
             "title": "Alliance Franciase",
             "paragraphs": [
 		{
+			"title" : "Zamawiający:", 
+			"content" : "Szkoła języka francuskiego"
+		},
+		{
 			"title" : "Przedtem:", 
-			"content" : ""
+			"content" : "\"Na początku semestru ciągle do nas dzwonią osoby, które chcą się zapisać na kurs, ale nie znają rodzajów kursów i cen. Wyjaśnianie trwa długo, bo mamy wiele kursów. A w trakcie rozmowy i tak klienci nie potrafią się zdecydować, bo to wymaga zastanowienia, sprawdzenia  przez nich innych planów.\""
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : ""
+			"content" : "\"Widzisz, ten pomysł z cenami na stronie. To chyba będzie niedobry pomysł, jak te ceny będą - to konkurencja też je widzi, prawda?\" \"Tak, widzą. Ale gdzie wolałabyś się zapisać: na kurs z ceną czy bez ceny ?\""
 		},
 		{
 			"title" : "Potem:", 
-			"content" : ""
+			"content" : "\"Wiesz co, teraz wszyscy dzwonią i wszyscy wiedzą czego chcą: chcą się zapisać do tego samego nauczyciela. Bo go lubią. To może by te nazwiska teraz usunąć ?\" – \"A może zróbcie więcej kursów?\""
 		}
 	]
 
@@ -50,12 +54,16 @@
             "title": "Oval",
             "paragraphs": [
 		{
+			"title" : "Zamawiający:", 
+			"content" : "Producent składnika spożywczego – pasteryzowanej masy jajowej."
+		},
+		{
 			"title" : "Przedtem:", 
-			"content" : ""
+			"content" : "co może być interesującego w masie jajowej?<br>\"Rozwijamy się, nasze maszyny potrafią wybijać kilka tysięcy jaj na godzinę, cysternę ostatnio wysłaliśmy z tym. Skorupki utylizujemy, to widzisz wszystko jest zautomatyzowane, pragniemy podwyższyć poziom naszej obsługi i bezpieczeństwa klientów, ale oni tego mogą nie znać, to nowość.\" "
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : ""
+			"content" : "\"To są piekarze, cukiernicy, producenci likierów. Oni nie znają się na maszynach, pasteryzacji i homogenizacji żółtka i białka. Po co mają kupować tą masę jajową? Bo co im to daje? Wiecie?\" – \"Bo mają problem z głowy. Bo nie zatrują jedzenia salmonellą. A to są wciąż normalne jajka.\" – \"Czyli wygoda. Bezpieczeństwo. I zdrowie. I takie właśnie sekcje zrobimy na stronie.\""
 		},
 		{
 			"title" : "Potem:", 
@@ -94,16 +102,20 @@
             "title": "konie.gda.pl",
             "paragraphs": [
 		{
+			"title" : "Zamawiający:", 
+			"content" : "stajnia - hodowca koni."
+		},
+		{
 			"title" : "Przedtem:", 
-			"content" : ""
+			"content" : "\"Używasz tego internetu? Jak tam wstawić ofertę\""
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : ""
+			"content" : "\"Wiesz, no niby ładnie. Ale takich stron są setki. \" – \"Bo to miała być taka zwyczajna oferta. Ale pomyślę.\""
 		},
 		{
 			"title" : "Potem:", 
-			"content" : ""
+			"content" : "po roku. \"Ja Ciebie bardzo proszę usuń tego konia ze strony. Bo do mnie teraz ludzie przyjeżdżają z dziećmi i one się pytają, gdzie jest ten koń, który mówi. Ja go przecież sprzedałem w tym roku.\" – \"To tylko imię wykasuję. Koń to koń – przecież każdy mówi.\""
 		}
 	]
 
@@ -139,16 +151,20 @@
             "title": "Artelier",
             "paragraphs": [
 		{
+			"title" : "Zamawiający:", 
+			"content" : "szkoła artystyczna"
+		},
+		{
 			"title" : "Przedtem:", 
-			"content" : ""
+			"content" : "\"Tak ma strona wyglądać. Szybko muszę to mieć, bo teraz lato, a na jesieni będą już zapisy. \""
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : ""
+			"content" : "\"Dzięki że szybko. A teraz zrób, żebym mogła sama wszystko zmieniać\" – \"Ale to trzeba  zrobić inaczej, od nowa! To musi być cały system do zarządzania treścią…\" – \"Co?\""
 		},
 		{
 			"title" : "Potem:", 
-			"content" : ""
+			"content" : "\"Inni, co takich rzeczy używają, mówią że na mojej stronie jest to lepsze. Że u mnie łatwiej się zmienia teksty, zdjęcia i że wszystko mogę wpisać.\""
 		}
 	]
 
