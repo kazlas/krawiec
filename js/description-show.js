@@ -12,6 +12,13 @@ $(document).ready(function(){
   $("ul#divMenu").click(function() {
 	  animateCurtain ("div#divCurtain");
 	  animateDescription ("div#divDescription");
+
+	setTimeout(function () {
+	   showDescription ("div#divDescription", currentMenuDescriptionId, "pl");
+	   setCommonHeights ("div#divDescription", "div#divCurtain");
+	} , 1000);
+
+	  
   });
 
   function animateCurtain (element) {
@@ -25,10 +32,6 @@ $(document).ready(function(){
 	clearDescription(element);
 	animateLeft (element);
 	animateRight (element);
-	
-	setTimeout(function () {
-	    showDescription (element, currentMenuDescriptionId, "pl")}
-	    , 1000);
   }
 
   function animateRightAndGlow (element) {
@@ -51,17 +54,20 @@ $(document).ready(function(){
 	  $(displayElement).html("");
   }
 
-
   function showDescription (displayElement, descriptionId, lang) {
 	var description = getDescription (descriptionId, lang);
 	var descriptionHtml = getDescriptionHtml (description);
 	
 	var pictures = getPictures (descriptionId);
-	var pictureHtml = getPictureHtml (pictures[0], 300);
+	var pictureHtml = getPictureHtml (pictures[0]);
 	
 	$(displayElement).html(descriptionHtml + pictureHtml);
   }
-
+  
+  function setCommonHeights (elementHeightPerfect, elementHeightToChange) {
+  	  var commonHeight = $(elementHeightPerfect).css("height");
+	  $(elementHeightToChange).css("height", commonHeight);
+  } 
   
   function getDescriptionHtml (descriptionJson) {
 	  var html = "<h2>";

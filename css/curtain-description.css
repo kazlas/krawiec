@@ -3,7 +3,6 @@
 	left:170px;	
 	height:400px;
 	width:800px;
-
 	background:#888;
 	opacity : 0.5;
 	z-index : 100;
@@ -13,8 +12,14 @@
 #divDescription {
 	position:absolute;
 	left:170px;	
-	height:400px;
-	width:800px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	max-width:700px;
 
 	z-index : 101;
+}
+
+.description {
+	font-family: Arial, sans-serif;
 }
