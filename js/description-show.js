@@ -59,7 +59,7 @@ $(document).ready(function(){
 	var descriptionHtml = getDescriptionHtml (description);
 	
 	var pictures = getPictures (descriptionId);
-	var pictureHtml = getPictureHtml (pictures[0]);
+	var pictureHtml = getPictureHtml (pictures[0],300);
 	
 	$(displayElement).html(descriptionHtml + pictureHtml);
   }
