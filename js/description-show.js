@@ -56,24 +56,26 @@ $(document).ready(function(){
 
   function showDescription (displayElement, descriptionId, lang) {
 	var description = getDescription (descriptionId, lang);
-	var descriptionHtml = getDescriptionHtml (description);
-	
+
+	var title = "<h2>" + description["title"] + "</h2>";
+	var paragraphsHtml = getParagraphsHtml (description);
+
 	var pictures = getPictures (descriptionId);
 	var pictureHtml = getPictureHtml (pictures[0],300);
 	
-	$(displayElement).html(descriptionHtml + pictureHtml);
+	$(displayElement).html(title + pictureHtml + paragraphsHtml);
   }
   
   function setCommonHeights (elementHeightPerfect, elementHeightToChange) {
   	  var commonHeight = $(elementHeightPerfect).css("height");
+  	  var commonPadding = $(elementHeightPerfect).css("padding-bottom");
+  	  
 	  $(elementHeightToChange).css("height", commonHeight);
+	  $(elementHeightToChange).css("padding-bottom", commonPadding);
   } 
   
-  function getDescriptionHtml (descriptionJson) {
-	  var html = "<h2>";
-	  html += descriptionJson["title"];
-	  html += "</h2>";
-	  
+  function getParagraphsHtml (descriptionJson) {
+	  var html = "";
 	  var paragraphs = descriptionJson["paragraphs"];
 	  
 	  $.each (paragraphs, function (index, paragraph) {
