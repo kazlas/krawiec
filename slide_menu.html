@@ -16,26 +16,28 @@
 <body>
 
 <div id="divCurtain"></div>
-<div id="divDescription" class="description">Welcome</div>
+<div id="divDescription" class="description"></div>
+
+<ul  id="divMenu" class="menu">
+	<li><a href="#" onClick="setDescription(this);" value="welcome">Start >></a></li>
+	<li><a href="#" onClick="setDescription(this);" value="af">Alliance Française</a></li>
+	<li><a href="#" onClick="setDescription(this);" value="oval">Oval</a></li>
+	<li><a href="#" onClick="setDescription(this);" value="horses">Stajna Kleszczewo</a></li>
+	<li><a href="#" onClick="setDescription(this);" value="artelier">Artelier</a></li>
+	<li><a href="#" onClick="setDescription(this);" value="sth">STH Design</a></li>
+	<li><a href="#" onClick="setDescription(this);" value="next">Dalej >></a></li>
+</ul>
+
 
 <script language="JavaScript" > 
  function setDescription (itemMenu){
 	 setCurrentMenuDescription(itemMenu);
 	 highliteCurrentMenu(itemMenu);
- }
+ };
+ var list = $("ul#divMenu.menu");
+ setDescription (list.children().first().children().first());
+ 
 </script>
-
-<ul  id="divMenu" class="menu">
-	<li><a href="#" onClick="setDescription(this);" value="af">Alliance Francaise</a></li>
-	<li><a href="#" onClick="setDescription(this);" value="oval">Oval</a></li>
-	<li><a href="#" onClick="setDescription(this);" value="horses">Stajna Kleszczewo</a></li>
-	<li><a href="#" onClick="setDescription(this);" value="artelier">Artelier</a></li>
-	<li><a href="#" onClick="setDescription(this);" value="sth">STH Design</a></li>
-	<li><a href="#" onClick="setDescription(this);" value="interim">Interim</a></li>
-	<li><a href="#" onClick="setDescription(this);" value="nasze">Nasze Przedszkole</a></li>
-</ul>
-
-
 
 </body>
 </html>

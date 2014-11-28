@@ -8,18 +8,23 @@
   
 
 $(document).ready(function(){
-  	
+
+  resetDisplay ();
+
   $("ul#divMenu").click(function() {
 	  animateCurtain ("div#divCurtain");
 	  animateDescription ("div#divDescription");
 
 	setTimeout(function () {
-	   showDescription ("div#divDescription", currentMenuDescriptionId, "pl");
-	   setCommonHeights ("div#divDescription", "div#divCurtain");
+		resetDisplay ();	
 	} , 1000);
-
-	  
   });
+
+  
+  function resetDisplay () {
+	showDescription ("div#divDescription", currentMenuDescriptionId, "pl");
+	setCommonHeights ("div#divDescription", "div#divCurtain");
+  }
 
   function animateCurtain (element) {
 	$(element).finish();  
