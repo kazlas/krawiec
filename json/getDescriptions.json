@@ -199,7 +199,7 @@
 
     ,"welcome": {
         "pl": {
-            "title": "Opowiemy Ci kilka historii",
+            "title": "To kilka krótkich historii",
             "paragraphs": [
 		{
 			"title" : "Klienci:", 
@@ -207,7 +207,7 @@
 		},
 		{
 			"title" : "Rzemiosło:", 
-			"content" : "Krawiec. Szewc. Kosmetyczka. Webdesigner (to tutaj). "
+			"content" : "Krawiec. Szewc. Fryzjer. Webdesigner (to tutaj). "
 		},
 		{
 			"title" : "Dzieło:", 
@@ -250,7 +250,11 @@
 		},
 		{
 			"title" : "", 
-			"content" : "Możesz napisać historię! Napiszmy ją razem."
+			"content" : "Możesz napisać historię!"
+		},
+		{
+			"title" : "", 
+			"content" : "Napiszmy ją razem."
 		},
 		{
 			"title" : "Kontakt:", 
