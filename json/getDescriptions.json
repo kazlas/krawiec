@@ -1,7 +1,7 @@
 ﻿{
     "af": {
         "pl": {
-            "title": "Alliance Française",
+            "title": "af.gda.pl",
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
@@ -23,7 +23,7 @@
 
         },
         "en": {
-            "title": "Alliance Franciase",
+            "title": "af.gda.pl",
             "paragraphs": [
 		{
 			"title" : "Before:", 
@@ -51,7 +51,7 @@
 
     ,"oval": {
         "pl": {
-            "title": "Oval",
+            "title": "oval.pl",
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
@@ -73,7 +73,7 @@
 
         },
         "en": {
-            "title": "Oval",
+            "title": "oval.pl",
             "paragraphs": [
 		{
 			"title" : "Before:", 
@@ -152,7 +152,7 @@
 
     ,"artelier": {
         "pl": {
-            "title": "Artelier",
+            "title": "artelier.edu.pl",
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
@@ -174,7 +174,7 @@
 
         },
         "en": {
-            "title": "konie.gda.pl",
+            "title": "artelier.edu.pl",
             "paragraphs": [
 		{
 			"title" : "Before:", 
@@ -196,5 +196,92 @@
             ""
         ]
     }
+
+    ,"welcome": {
+        "pl": {
+            "title": "Opowiemy Ci kilka historii",
+            "paragraphs": [
+		{
+			"title" : "Klienci:", 
+			"content" : "Wspieramy Wasze przedsięwzięcia. Każde jest niepowtarzalne."
+		},
+		{
+			"title" : "Rzemiosło:", 
+			"content" : "Krawiec. Szewc. Kosmetyczka. Webdesigner (to tutaj). "
+		},
+		{
+			"title" : "Dzieło:", 
+			"content" : ""
+		}
+	]
+
+        },
+        "en": {
+            "title": "Teraz Ty!",
+            "paragraphs": [
+		{
+			"title" : "Before:", 
+			"content" : ""
+		},
+		{
+			"title" : "During:", 
+			"content" : ""
+		},
+		{
+			"title" : "After:", 
+			"content" : ""
+		}
+	]
+
+        },
+        "pictures": [
+            "",
+            ""
+        ]
+    }
+
+    ,"next": {
+        "pl": {
+            "title": "Teraz Ty!",
+            "paragraphs": [
+		{
+			"title" : "Zamawiający:", 
+			"content" : "To miejsce czeka na Ciebie."
+		},
+		{
+			"title" : "", 
+			"content" : "Możesz napisać historię! Napiszmy ją razem."
+		},
+		{
+			"title" : "Kontakt:", 
+			"content" : "888 881 028"
+		}
+	]
+
+        },
+        "en": {
+            "title": "Teraz Ty!",
+            "paragraphs": [
+		{
+			"title" : "Before:", 
+			"content" : ""
+		},
+		{
+			"title" : "During:", 
+			"content" : ""
+		},
+		{
+			"title" : "After:", 
+			"content" : ""
+		}
+	]
+
+        },
+        "pictures": [
+            "",
+            ""
+        ]
+    }
+
 
 }
