@@ -5,7 +5,7 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Szkoła języka francuskiego"
+			"content" : "Szkoła języka francuskiego. Design + implementacja. Rok: 2000-2003"
 		},
 		{
 			"title" : "Przedtem:", 
@@ -41,9 +41,10 @@
 
         },
         "pictures": [
-            "img/jellyfish.jpg",
-            "",
-            ""
+            "img/af_home.jpeg",
+            "img/af_courses.jpeg",
+            "img/af_free.jpeg",
+            "img/af_contact.jpeg"
         ]
     }
 
@@ -55,7 +56,7 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Producent składnika spożywczego – pasteryzowanej masy jajowej."
+			"content" : "Producent składnika spożywczego: pasteryzowanej masy jajowej. Design + implementacja. Rok: 2004"
 		},
 		{
 			"title" : "Przedtem:", 
@@ -91,8 +92,10 @@
 
         },
         "pictures": [
-            "",
-            ""
+            "img/oval_convenience.jpeg",
+            "img/oval_safety.jpeg",
+            "img/oval_health.jpeg",
+            "img/oval_home.jpeg"
         ]
     }
 
@@ -103,19 +106,15 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Stajnia - hodowca koni."
+			"content" : "Stajnia, hodowca koni. Design + implementacja. Rok: 2009."
 		},
 		{
 			"title" : "Przedtem:", 
-			"content" : "\"Używasz tego internetu? Jak tam wstawić ofertę\""
+			"content" : "\"Używasz tego internetu? Jak tam wstawić ofertę?\""
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : "\"Wiesz, no niby ładnie. Ale takich stron są setki. \" – \"Bo to miała być taka zwyczajna oferta. Ale pomyślę.\""
-		},
-		{
-			"title" : "", 
-			"content" : "(Po tygodniu: \"Uśmiałam się! dawaj tą drugą stronę.\")"
+			"content" : "\"Uśmiałam się! dawaj tę wersję z koniem.\""
 		},
 		{
 			"title" : "Potem:", 
@@ -143,8 +142,10 @@
 
         },
         "pictures": [
-            "",
-            ""
+            "img/konie_home.jpeg",
+            "img/konie_stable.jpeg",
+            "img/konie_courses.jpeg",
+            "img/konie_contact.jpeg"
         ]
     }
 
@@ -156,7 +157,7 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Szkoła artystyczna"
+			"content" : "Szkoła artystyczna. Implementcja wg projektu graficznego Klienta. Rok: 2010"
 		},
 		{
 			"title" : "Przedtem:", 
@@ -192,10 +193,59 @@
 
         },
         "pictures": [
-            "",
-            ""
+            "img/artelier_wordpress.jpeg"
         ]
     }
+
+
+    ,"sth": {
+        "pl": {
+            "title": "STH Design",
+            "paragraphs": [
+		{
+			"title" : "Zamawiający:", 
+			"content" : "Biuto projektowe statków pasażerskich i mieszkalnych. Implementacja wg projektu graficznego Klienta."
+		},
+		{
+			"title" : "Przedtem:", 
+			"content" : "\"Widzisz, a tutaj poniżej chciałbym mieć galerię, taką że jak się przesuwa suwakiem to pod spodem jest cały obraz\""
+		},
+		{
+			"title" : "W trakcie", 
+			"content" : "\"W trzech wersjach językowych.\""
+		},
+		{
+			"title" : "Potem:", 
+			"content" : "\"Jest dokładnie tak, jak plansza którą Ci przysłałam. Dzięki.\""
+		}
+	]
+
+        },
+        "en": {
+            "title": "artelier.edu.pl",
+            "paragraphs": [
+		{
+			"title" : "Before:", 
+			"content" : ""
+		},
+		{
+			"title" : "During:", 
+			"content" : ""
+		},
+		{
+			"title" : "After:", 
+			"content" : ""
+		}
+	]
+
+        },
+        "pictures": [
+            "img/sth_rescue.jpeg",
+            "img/sth_tram.jpeg"
+        ]
+    }
+
+
 
     ,"welcome": {
         "pl": {
@@ -203,15 +253,19 @@
             "paragraphs": [
 		{
 			"title" : "Klienci:", 
-			"content" : "Wspieramy Wasze przedsięwzięcia. Każde jest niepowtarzalne."
+			"content" : "Wspieram Wasze przedsięwzięcia. Bo każde jest niepowtarzalne."
 		},
 		{
 			"title" : "Rzemiosło:", 
-			"content" : "Krawiec. Szewc. Fryzjer. Webdesigner (to tutaj). "
+			"content" : "Są różne znane rzemiosła: krawiec, szewc, fryzjer."
+		},
+		{
+			"title" : "", 
+			"content" : "I jedno wciąż nowe: Webdesigner. To tu."
 		},
 		{
 			"title" : "Dzieło:", 
-			"content" : ""
+			"content" : "Strona webowa. Czyli połączenie wyglądu, działania i danych. Wynik wielu wspólnych przemyśleń i rozmów z Klientem oraz kolejnych milowych kroków myślowych na drodze do efektu końcowego."
 		}
 	]
 
