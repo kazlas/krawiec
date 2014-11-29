@@ -118,7 +118,7 @@
 		},
 		{
 			"title" : "Potem:", 
-			"content" : "Po roku. \"Ja Ciebie bardzo proszę usuń tego gadającego konia ze strony. Bo do mnie teraz ludzie przyjeżdżają z dziećmi i one się pytają, gdzie jest ten koń, który mówi. Ja go przecież sprzedałem w tym roku.\""
+			"content" : "Po roku. \"Ja Ciebie bardzo proszę: usuń tego gadającego konia ze strony. Bo do mnie teraz ludzie przyjeżdżają z dziećmi i one się pytają, gdzie jest ten koń, który mówi. Ja go przecież sprzedałem w tym roku.\""
 		}
 	]
 
@@ -260,12 +260,20 @@
 			"content" : "Są różne znane rzemiosła: krawiec, szewc, fryzjer."
 		},
 		{
-			"title" : "", 
-			"content" : "I jedno wciąż nowe: Webdesigner. To tu."
+			"title" : "",
+			"content" : "I jedno wciąż nowe: Webdesigner."
 		},
 		{
 			"title" : "Dzieło:", 
-			"content" : "Strona webowa. Czyli połączenie wyglądu, działania i danych. Wynik wielu wspólnych przemyśleń i rozmów z Klientem oraz kolejnych milowych kroków myślowych na drodze do efektu końcowego."
+			"content" : "Strona internetowa. "
+		},
+		{
+			"title" : "",
+			"content" : "Czyli połączenie wyglądu, działania i tekstu. "
+		},
+		{
+			"title" : "", 
+			"content" : "Wynik wielu wspólnych przemyśleń i rozmów z Klientem oraz kolejnych milowych kroków myślowych na drodze do efektu końcowego."
 		}
 	]
 
@@ -289,8 +297,6 @@
 
         },
         "pictures": [
-            "",
-            ""
         ]
     }
 
@@ -307,12 +313,20 @@
 			"content" : "Możesz napisać historię!"
 		},
 		{
-			"title" : "", 
-			"content" : "Napiszmy ją razem."
+			"title" : "Napiszmy ją razem.",
+			"content" : ""
 		},
 		{
 			"title" : "Kontakt:", 
 			"content" : "888 881 028"
+		},
+		{
+			"title" : "",
+			"content" : "pn.-pt.: 10:00 - 18:00"
+		},
+		{
+			"title" : "", 
+			"content" : "Gdańsk, Sopot, Gdynia."
 		}
 	]
 
@@ -336,8 +350,7 @@
 
         },
         "pictures": [
-            "",
-            ""
+
         ]
     }
 

@@ -4,4 +4,6 @@ html {
 body {
 	font-size:14px;
 	margin:0px;
+	background-image: url(../img/background.jpeg);
+	background-repeat: no-repeat;	
 }

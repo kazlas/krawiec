@@ -40,11 +40,11 @@ $(document).ready(function(){
   }
 
   function animateRightAndGlow (element) {
-    $(element).animate({left:"+=170px", opacity: 0.5},"slow");
+    $(element).animate({left:"+=180px", opacity: 0.9},"slow");
   }
 
   function animateLeftAndDimm (element) {
-    $(element).animate({left:"-=170px", opacity: 0.1},"slow");
+    $(element).animate({left:"-=180px", opacity: 0.1},"slow");
   }
 
   function animateRight (element) {
@@ -103,8 +103,12 @@ $(document).ready(function(){
 	  if (typeof width === "number") {
 		  html += " width=\"" +width+ "\"";
 	  }
-
 	  html += ">";
+
+	  if (typeof picturelink === "undefined") {
+		  html = "";
+	  }
+
 	  return html;
   }
 
