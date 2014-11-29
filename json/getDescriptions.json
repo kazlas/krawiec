@@ -5,7 +5,11 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Szkoła języka francuskiego. Design + implementacja. Rok: 2000-2003"
+			"content" : "Szkoła języka francuskiego."
+		},
+		{
+			"title" : "", 
+			"content" : "Projekt graficzny + implementacja. Rok: 2000-2003"
 		},
 		{
 			"title" : "Przedtem:", 
@@ -56,7 +60,11 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Producent składnika spożywczego: pasteryzowanej masy jajowej. Design + implementacja. Rok: 2004"
+			"content" : "Producent składnika spożywczego: pasteryzowanej masy jajowej."
+		},
+		{
+			"title" : "", 
+			"content" : "Projekt graficzny + implementacja. Rok: 2004"
 		},
 		{
 			"title" : "Przedtem:", 
@@ -106,7 +114,11 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Stajnia, hodowca koni. Design + implementacja. Rok: 2009."
+			"content" : "Stajnia, hodowca koni."
+		},
+		{
+			"title" : "", 
+			"content" : "Projekt graficzny + implementacja. 2009."
 		},
 		{
 			"title" : "Przedtem:", 
@@ -157,7 +169,11 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Szkoła artystyczna. Implementcja wg projektu graficznego Klienta. Rok: 2010"
+			"content" : "Szkoła artystyczna."
+		},
+		{
+			"title" : "", 
+			"content" : " Implementcja wg projektu graficznego Klienta. Rok: 2010"
 		},
 		{
 			"title" : "Przedtem:", 
@@ -204,7 +220,11 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Biuto projektowe statków pasażerskich i mieszkalnych. Implementacja wg projektu graficznego Klienta."
+			"content" : "Biuto projektowe statków pasażerskich i mieszkalnych."
+		},
+		{
+			"title" : "", 
+			"content" : "Implementacja wg projektu graficznego Klienta. Rok 2008"
 		},
 		{
 			"title" : "Przedtem:", 
