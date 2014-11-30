@@ -1,3 +1,4 @@
+//K. Laskowski (C) 2014
 (function($, window) { //Module starts
   var currentMenuDescriptionId;
   
