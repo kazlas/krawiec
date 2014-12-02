@@ -7,3 +7,24 @@ body {
 	background-image: url(../img/background.jpeg);
 	background-repeat: no-repeat;	
 }
+
+#divTitle {
+	position:absolute;
+	top:0px;
+	left:180px;
+	height: 100px;
+}
+
+.big_1 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 34px;
+	font-weight: 400;
+	color: #990000;
+}
+
+.big_2 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #990000;
+}

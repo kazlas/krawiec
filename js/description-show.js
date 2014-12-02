@@ -74,10 +74,12 @@ $(document).ready(function(){
   
   function setCommonHeights (elementHeightPerfect, elementHeightToChange) {
   	  var commonHeight = $(elementHeightPerfect).css("height");
-  	  var commonPadding = $(elementHeightPerfect).css("padding-bottom");
+  	  var commonPaddingTop = $(elementHeightPerfect).css("padding-top");
+  	  var commonPaddingBottom = $(elementHeightPerfect).css("padding-bottom");
   	  
 	  $(elementHeightToChange).css("height", commonHeight);
-	  $(elementHeightToChange).css("padding-bottom", commonPadding);
+	  $(elementHeightToChange).css("padding-top", commonPaddingTop);
+	  $(elementHeightToChange).css("padding-bottom", commonPaddingBottom);
   } 
   
   function getParagraphsHtml (descriptionJson) {
