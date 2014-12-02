@@ -12,7 +12,12 @@ body {
 	position:absolute;
 	top:0px;
 	left:680px;
-	height: 100px;
+}
+
+#divTitle2 {
+	position:absolute;
+	top:30px;
+	left:850px;
 }
 
 .big_1 {
