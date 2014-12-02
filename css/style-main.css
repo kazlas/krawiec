@@ -11,13 +11,13 @@ body {
 #divTitle {
 	position:absolute;
 	top:0px;
-	left:207px;
+	left:680px;
 	height: 100px;
 }
 
 .big_1 {
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size: 34px;
+	font-size: 30px;
 	font-weight: 400;
 	color: #990000;
 }

@@ -41,7 +41,7 @@ $(document).ready(function(){
   }
 
   function animateRightAndGlow (element) {
-    $(element).animate({left:"+=180px", opacity: 0.9},"slow");
+    $(element).animate({left:"+=180px", opacity: 0.7},"slow");
   }
 
   function animateLeftAndDimm (element) {
