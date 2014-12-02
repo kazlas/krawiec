@@ -1,7 +1,7 @@
 #divCurtain {
 	position:absolute;
 	left:205px;
-	top:100px;
+	top:0px;
 	height:400px;
 	width:800px;
 	background-color: #eeeeee;
@@ -14,8 +14,8 @@
 #divDescription {
 	position:absolute;
 	left:200px;
-	top:100px;
-	padding-top:20px;
+	top:0px;
+	padding-top:80px;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 50px;
