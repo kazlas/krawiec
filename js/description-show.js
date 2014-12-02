@@ -86,6 +86,7 @@ $(document).ready(function(){
 	  $.each (paragraphs, function (index, paragraph) {
 		  	html += "<h3>" +paragraph["title"]+ "</h3>";
 		  	html += paragraph["content"];
+		  	html +=  "&nbsp;"; //add free line for empty paragraphs.
 		  }
 	  )
 	  

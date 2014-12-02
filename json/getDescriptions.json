@@ -5,7 +5,7 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Szkoła języka francuskiego. Design + implementacja. Rok: 2000-2003"
+			"content" : "Szkoła języka francuskiego. Projekt graficzny + implementacja. Rok: 2000-2003"
 		},
 		{
 			"title" : "Przedtem:", 
@@ -41,7 +41,7 @@
 
         },
         "pictures": [
-            "img/af_home.jpeg",
+            "img/af_home_s.jpeg",
             "img/af_courses.jpeg",
             "img/af_free.jpeg",
             "img/af_contact.jpeg"
@@ -56,7 +56,7 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Producent składnika spożywczego: pasteryzowanej masy jajowej. Design + implementacja. Rok: 2004"
+			"content" : "Producent składnika spożywczego: pasteryzowanej masy jajowej. Projekt graficzny + implementacja. Rok: 2004"
 		},
 		{
 			"title" : "Przedtem:", 
@@ -92,7 +92,7 @@
 
         },
         "pictures": [
-            "img/oval_convenience.jpeg",
+            "img/oval_convenience_s.jpeg",
             "img/oval_safety.jpeg",
             "img/oval_health.jpeg",
             "img/oval_home.jpeg"
@@ -106,7 +106,7 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Stajnia, hodowca koni. Design + implementacja. Rok: 2009."
+			"content" : "Stajnia, hodowca koni. Projekt graficzny + implementacja. Rok: 2009."
 		},
 		{
 			"title" : "Przedtem:", 
@@ -142,7 +142,7 @@
 
         },
         "pictures": [
-            "img/konie_home.jpeg",
+            "img/konie_home_s.jpeg",
             "img/konie_stable.jpeg",
             "img/konie_courses.jpeg",
             "img/konie_contact.jpeg"
@@ -193,18 +193,18 @@
 
         },
         "pictures": [
-            "img/artelier_wordpress.jpeg"
+            "img/artelier_wordpress_s.jpeg"
         ]
     }
 
 
     ,"sth": {
         "pl": {
-            "title": "STH Design",
+            "title": "sthdesign.pl",
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Biuto projektowe statków pasażerskich i mieszkalnych. Implementacja wg projektu graficznego Klienta."
+			"content" : "Biuto projektowe statków pasażerskich i mieszkalnych. Implementacja wg projektu graficznego Klienta. Rok 2008"
 		},
 		{
 			"title" : "Przedtem:", 
@@ -222,7 +222,7 @@
 
         },
         "en": {
-            "title": "artelier.edu.pl",
+            "title": "sthdesign.pl",
             "paragraphs": [
 		{
 			"title" : "Before:", 
@@ -240,7 +240,7 @@
 
         },
         "pictures": [
-            "img/sth_rescue.jpeg",
+            "img/sth_rescue_s.jpeg",
             "img/sth_tram.jpeg"
         ]
     }
@@ -261,7 +261,7 @@
 		},
 		{
 			"title" : "",
-			"content" : "I jedno wciąż nowe: Webdesigner."
+			"content" : "I jedno - wciąż nowe: Webdesigner."
 		},
 		{
 			"title" : "Dzieło:", 
@@ -318,11 +318,19 @@
 		},
 		{
 			"title" : "Kontakt:", 
-			"content" : "888 881 028"
+			"content" : "Kazimierz Laskowski"
+		},
+		{
+			"title" : "", 
+			"content" : "+48 888 881 028"
 		},
 		{
 			"title" : "",
 			"content" : "pn.-pt.: 10:00 - 18:00"
+		},
+		{
+			"title" : "", 
+			"content" : "<a href=\"mailto:k.laskowski@krawwwiec.pl\">k.laskowski@krawwwiec.pl</a>"
 		},
 		{
 			"title" : "", 
