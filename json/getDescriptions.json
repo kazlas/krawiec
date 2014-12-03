@@ -157,7 +157,7 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Szkoła artystyczna. Implemenatcja wg projektu graficznego Klienta. Rok: 2010"
+			"content" : "Szkoła artystyczna. Implementacja wg projektu graficznego Klienta. Rok: 2010"
 		},
 		{
 			"title" : "Przedtem:", 
@@ -240,8 +240,8 @@
 
         },
         "pictures": [
-            "img/sth_rescue_s.jpeg",
-            "img/sth_tram.jpeg"
+            "img/sth_tram.jpeg",
+            "img/sth_rescue_s.jpeg"
         ]
     }
 
