@@ -23,7 +23,7 @@ body {
 .big_1 {
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 30px;
-	font-weight: 400;
+	font-weight: 600;
 	color: #990000;
 }
 
@@ -32,4 +32,14 @@ body {
 	font-size: 20px;
 	font-weight: 300;
 	color: #990000;
+}
+
+h2{
+	font-family: Arial, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+}
+
+h3{
+	font-family: Arial, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
 }

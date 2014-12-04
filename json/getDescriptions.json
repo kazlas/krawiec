@@ -249,11 +249,15 @@
 
     ,"welcome": {
         "pl": {
-            "title": "To kilka krótkich historii",
+            "title": "Jak zrobić stronę w internecie?<br>- Tak jak garnitur do ślubu.",
             "paragraphs": [
 		{
 			"title" : "Klienci:", 
-			"content" : "Wspieram Wasze przedsięwzięcia. Bo każde jest niepowtarzalne."
+			"content" : "Wspieram Wasze przedsięwzięcia przez tworzenie stron WWW."
+		},
+		{
+			"title" : "", 
+			"content" : "Bo każde z nich jest niepowtarzalne."
 		},
 		{
 			"title" : "Rzemiosło:", 
@@ -297,6 +301,7 @@
 
         },
         "pictures": [
+            "img/thread.jpeg"
         ]
     }
 
