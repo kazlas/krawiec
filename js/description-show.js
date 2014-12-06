@@ -58,6 +58,7 @@ $(document).ready(function(){
 
   function clearDescription (displayElement) {
 	  $(displayElement).html("");
+	  $(displayElement).css("padding-bottom", 0);
   }
 
   function showDescription (displayElement, descriptionId, lang) {
@@ -69,6 +70,7 @@ $(document).ready(function(){
 	var pictures = getPictures (descriptionId);
 	var pictureHtml = getPictureHtml (pictures[0],300);
 	
+	$(displayElement).css("padding-bottom", "50px");
 	$(displayElement).html(title + pictureHtml + paragraphsHtml);
   }
   
@@ -76,8 +78,11 @@ $(document).ready(function(){
   	  var commonHeight = $(elementHeightPerfect).css("height");
   	  var commonPaddingTop = $(elementHeightPerfect).css("padding-top");
   	  var commonPaddingBottom = $(elementHeightPerfect).css("padding-bottom");
+
+	  var addPerfectTop = $(elementHeightPerfect).css("top");
+  	  var changedHeight = parseInt(commonHeight)  + parseInt(addPerfectTop);
   	  
-	  $(elementHeightToChange).css("height", commonHeight);
+	  $(elementHeightToChange).css("height", changedHeight);
 	  $(elementHeightToChange).css("padding-top", commonPaddingTop);
 	  $(elementHeightToChange).css("padding-bottom", commonPaddingBottom);
   } 
