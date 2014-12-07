@@ -14,17 +14,17 @@
 #divDescription {
 	position:absolute;
 	left:220px;
-	top:60px;
-	background-color: #EEE;
+	top:40px;
 	padding-top:0px;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 50px;
-	max-width:600px;
+	max-width:440px;
 	z-index : 101;
 }
 
 .description {
 	font-family: Verdana, Tahoma, Arial, sans-serif;
 	font-size:14px;
+	background-color: #EEE;
 }

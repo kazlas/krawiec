@@ -62,17 +62,37 @@ $(document).ready(function(){
   }
 
   function showDescription (displayElement, descriptionId, lang) {
+
+    var titleElement = $(displayElement).children("h2");
+    var pictureElement = $(displayElement).children("#divPicture");
+    var textElement =  $(displayElement).children("#divText");
+
+    showTitle (titleElement, descriptionId, lang);
+    showPicture (pictureElement , descriptionId, lang);
+    showText (textElement, descriptionId, lang);
+
+  }
+
+  function showTitle (displayElement, descriptionId, lang) {
 	var description = getDescription (descriptionId, lang);
+	var title = description["title"];
+	$(displayElement).html(title);
+  }
 
-	var title = "<h2>" + description["title"] + "</h2>";
-	var paragraphsHtml = getParagraphsHtml (description);
-
+  function showPicture (displayElement, descriptionId, lang) {
+	var description = getDescription (descriptionId, lang);
 	var pictures = getPictures (descriptionId);
 	var pictureHtml = getPictureHtml (pictures[0],300);
-	
-	$(displayElement).css("padding-bottom", "50px");
-	$(displayElement).html(title + pictureHtml + paragraphsHtml);
+	$(displayElement).html(pictureHtml);
   }
+
+  function showText (displayElement, descriptionId, lang) {
+	var description = getDescription (descriptionId, lang);
+	var paragraphsHtml = getParagraphsHtml (description);
+	$(displayElement).css("padding-bottom", "50px");
+	$(displayElement).html(paragraphsHtml);
+  }
+
   
   function setCommonHeights (elementHeightPerfect, elementHeightToChange) {
   	  var commonHeight = $(elementHeightPerfect).css("height");
