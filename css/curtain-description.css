@@ -15,12 +15,12 @@
 	position:absolute;
 	left:220px;
 	top:60px;
-	background-color: #EEE;
+	background-color: #999;
 	padding-top:0px;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 50px;
-	max-width:600px;
+	max-width:500px;
 	z-index : 101;
 }
 
