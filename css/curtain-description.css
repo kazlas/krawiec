@@ -18,7 +18,6 @@
 	padding-top:0px;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 50px;
 	max-width:440px;
 	z-index : 101;
 }
@@ -27,4 +26,5 @@
 	font-family: Verdana, Tahoma, Arial, sans-serif;
 	font-size:14px;
 	background-color: #EEE;
+	padding-bottom: 50px;
 }

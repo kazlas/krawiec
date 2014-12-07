@@ -63,14 +63,20 @@ $(document).ready(function(){
 
   function showDescription (displayElement, descriptionId, lang) {
 
-    var titleElement = $(displayElement).children("h2");
-    var pictureElement = $(displayElement).children("#divPicture");
-    var textElement =  $(displayElement).children("#divText");
+    var $titleElement = $(displayElement).children("h2");
+    var $pictureElement = $(displayElement).children("#divPicture");
+    var $textElement =  $(displayElement).children("#divText");
+    var totalHeight = 0;
 
-    showTitle (titleElement, descriptionId, lang);
-    showPicture (pictureElement , descriptionId, lang);
-    showText (textElement, descriptionId, lang);
+    showTitle ($titleElement, descriptionId, lang);
+    showPicture ($pictureElement , descriptionId, lang);
+    showText ($textElement, descriptionId, lang);
 
+    
+    $(displayElement).children().each(function(){
+      totalHeight = totalHeight + $(this).outerHeight();
+    });
+    $(displayElement).css("height", totalHeight);
   }
 
   function showTitle (displayElement, descriptionId, lang) {
