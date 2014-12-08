@@ -57,8 +57,9 @@ $(document).ready(function(){
   }
 
   function clearDescription (displayElement) {
-	  $(displayElement).html("");
-	  $(displayElement).css("padding-bottom", 0);
+    $(displayElement).children().each(function(){
+	    $(this).html("");
+	});
   }
 
   function showDescription (displayElement, descriptionId, lang) {
@@ -72,11 +73,6 @@ $(document).ready(function(){
     showPicture ($pictureElement , descriptionId, lang);
     showText ($textElement, descriptionId, lang);
 
-    
-    $(displayElement).children().each(function(){
-      totalHeight = totalHeight + $(this).outerHeight();
-    });
-    $(displayElement).css("height", totalHeight);
   }
 
   function showTitle (displayElement, descriptionId, lang) {
@@ -95,7 +91,6 @@ $(document).ready(function(){
   function showText (displayElement, descriptionId, lang) {
 	var description = getDescription (descriptionId, lang);
 	var paragraphsHtml = getParagraphsHtml (description);
-	$(displayElement).css("padding-bottom", "50px");
 	$(displayElement).html(paragraphsHtml);
   }
 
@@ -104,13 +99,12 @@ $(document).ready(function(){
   	  var commonHeight = $(elementHeightPerfect).css("height");
   	  var commonPaddingTop = $(elementHeightPerfect).css("padding-top");
   	  var commonPaddingBottom = $(elementHeightPerfect).css("padding-bottom");
-
-	  var addPerfectTop = $(elementHeightPerfect).css("top");
-  	  var changedHeight = parseInt(commonHeight)  + parseInt(addPerfectTop);
+	  var commonTop = $(elementHeightPerfect).css("top");
+	  
+  	  var changedHeight = parseInt(commonHeight)  + parseInt(commonTop)  
+  	  					+ parseInt(commonPaddingTop) + parseInt(commonPaddingBottom);
   	  
 	  $(elementHeightToChange).css("height", changedHeight);
-	  $(elementHeightToChange).css("padding-top", commonPaddingTop);
-	  $(elementHeightToChange).css("padding-bottom", commonPaddingBottom);
   } 
   
   function getParagraphsHtml (descriptionJson) {
