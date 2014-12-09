@@ -59,6 +59,7 @@ $(document).ready(function(){
   function clearDescription (displayElement) {
     $(displayElement).children().each(function(){
 	    $(this).html("");
+	    $(this).css("padding", 0);
 	});
   }
 
@@ -85,12 +86,14 @@ $(document).ready(function(){
 	var description = getDescription (descriptionId, lang);
 	var pictures = getPictures (descriptionId);
 	var pictureHtml = getPictureHtml (pictures[0],300);
+    $(displayElement).css("padding", 20);
 	$(displayElement).html(pictureHtml);
   }
 
   function showText (displayElement, descriptionId, lang) {
 	var description = getDescription (descriptionId, lang);
 	var paragraphsHtml = getParagraphsHtml (description);
+    $(displayElement).css("padding", 20);
 	$(displayElement).html(paragraphsHtml);
   }
 
@@ -122,7 +125,7 @@ $(document).ready(function(){
   }
 
   function getPictureHtml (picturelink, height, width) {
-	  var html = "<br clear all><img src=\"";
+	  var html = "<img src=\"";
 	  html += picturelink;
 	  html += "\"";
 	  

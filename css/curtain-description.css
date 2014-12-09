@@ -18,15 +18,22 @@
 	padding-top:0px;
 	padding-left: 50px;
 	padding-right: 50px;
-	max-width:440px;
+	padding-bottom:0px;
+	max-width:520px;
 	z-index : 101;
 }
+
+#divPicture {
+	padding: 20px;
+	max-height:300px;
+	background-color: #EEE;
+}
+
 
 .description {
 	font-family: Verdana, Tahoma, Arial, sans-serif;
 	font-size:14px;
 	background-color: #EEE;
-	padding-top:0px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
