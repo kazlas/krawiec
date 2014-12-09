@@ -13,7 +13,7 @@
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : "\"Widzi Pan, ten pomysł z cenami na stronie. To chyba nie będzie dobre - przecież konkurencja też widzi, prawda?\" - \"Tak, widzą. Ale czy skłonna byłaby Pani zapisać się na kurs bez ceny ?\""
+			"content" : "\"Widzi Pan, ten pomysł z cenami na stronie. To chyba nie będzie dobre - przecież konkurencja też widzi, prawda?\" - \"Tak, widzą. Ale czy skłonna byłaby Pani zapisać się na kurs bez ceny?\""
 		},
 		{
 			"title" : "Potem:", 
@@ -106,7 +106,7 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Stajnia, hodowca koni. Projekt graficzny + implementacja. Rok: 2009."
+			"content" : "Stajnia. Projekt graficzny + implementacja. Rok: 2009."
 		},
 		{
 			"title" : "Przedtem:", 
@@ -249,7 +249,7 @@
 
     ,"welcome": {
         "pl": {
-            "title": "Jak zrobić stronę w internecie?<br>- Tak jak garnitur - u dobrego krawca.",
+            "title": "Jak zrobić stronę w internecie?<br>Tak jak garnitur - u dobrego krawca.",
             "paragraphs": [
 		{
 			"title" : "Klienci:", 
