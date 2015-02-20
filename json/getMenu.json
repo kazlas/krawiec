@@ -1,0 +1,81 @@
+﻿{
+    "af": {
+        "pl": {
+            "caption": "Alliance Française"
+        },
+        "en": {
+            "caption": "Alliance Française"
+
+        }
+    }
+
+
+
+    ,"oval": {
+        "pl": {
+            "caption": "Oval"
+        },
+        "en": {
+            "caption": "Oval"
+
+        }
+    }
+
+
+    ,"horses": {
+        "pl": {
+            "caption": "Stania Kleszczewo"
+        },
+        "en": {
+            "caption": "Kleszczewo Stables"
+
+        }
+    }
+
+
+
+    ,"artelier": {
+        "pl": {
+            "caption": "Artelier"
+        },
+        "en": {
+            "caption": "Artelier"
+
+        }
+    }
+
+
+    ,"sth": {
+        "pl": {
+            "caption": "STH Design"
+        },
+        "en": {
+            "caption": "STH Design"
+
+        }
+    }
+
+
+
+    ,"welcome": {
+        "pl": {
+            "caption": "Start >>"
+        },
+        "en": {
+            "caption": "Start >>"
+
+        }
+    }
+
+    ,"next": {
+        "pl": {
+            "caption": "Dalej >>"
+        },
+        "en": {
+            "caption": "Next >>"
+
+        }
+    }
+
+
+}
