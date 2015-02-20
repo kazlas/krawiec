@@ -25,7 +25,11 @@ $(document).ready(function(){
 	  var html = "";
 	  
 	  $.each (menuJsonLang, function (index, menuJsonLang) {
-		  	html += "<h3>" +menuJsonLang["caption"]+ "</h3>";
+		    html += "<li><a href=\"#\" onClick=\"setDescription(this);\" value=\"";
+		    html += menuJsonLang["id"];
+		    html += "\">";
+		    html += menuJsonLang["caption"];
+		    html += "</a></li>";
 		  }
 	  )
 	  
