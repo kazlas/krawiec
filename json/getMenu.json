@@ -1,0 +1,63 @@
+﻿{
+	"pl" : [
+		{
+			"id": "welcome",
+			"caption": "Start >>"
+		},
+		{
+			"id": "af",
+			"caption": "Alliance Française"
+		},
+		{
+			"id": "oval",
+			"caption": "Oval"
+		},
+		{
+			"id": "horses",
+			"caption": "Stania Kleszczewo"
+		},
+		{
+			"id": "artelier",
+			"caption": "Artelier"
+		},
+		{
+			"id": "sth",
+			"caption": "STH Design"
+		},
+		{
+			"id": "next",
+			"caption": "Dalej >>"
+		}
+	],
+	"en" : [
+		{
+			"id": "welcome",
+			"caption": "Start >>"
+		},
+		{
+			"id": "af",
+			"caption": "Alliance Française"
+		},
+		{
+			"id": "oval",
+			"caption": "Oval"
+		},
+		{
+			"id": "horses",
+			"caption": "Kleszczewo Stable"
+		},
+		{
+			"id": "artelier",
+			"caption": "Artelier"
+		},
+		{
+			"id": "sth",
+			"caption": "STH Design"
+		},
+		{
+			"id": "next",
+			"caption": "Next >>"
+		}
+	]
+
+}

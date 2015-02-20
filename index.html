@@ -9,9 +9,10 @@
 	<LINK REL="stylesheet" TYPE="text/css" HREF="./css/curtain-description.css" > 
 	<LINK REL="stylesheet" TYPE="text/css" HREF="./css/menu-buttons.css" > 
 	<script language="JavaScript" src="js/jquery-1.11.1.min.js"></script>	
+    <script language="JavaScript" src="js/menu-json.js" ></script>
+    <script language="JavaScript" src="js/menu-buttons.js" ></script>
     <script language="JavaScript" src="js/description-json.js" ></script>
     <script language="JavaScript" src="js/description-show.js" ></script>
-    <script language="JavaScript" src="js/menu-buttons.js" ></script>
 </head>
 
 <body>
@@ -21,24 +22,9 @@
 <div id="divDescription" class="description"></div>
 
 <ul  id="divMenu" class="menu">
-	<li><a href="#" onClick="setDescription(this);" value="welcome">Start >></a></li>
-	<li><a href="#" onClick="setDescription(this);" value="af">Alliance Française</a></li>
-	<li><a href="#" onClick="setDescription(this);" value="oval">Oval</a></li>
-	<li><a href="#" onClick="setDescription(this);" value="horses">Stajna Kleszczewo</a></li>
-	<li><a href="#" onClick="setDescription(this);" value="artelier">Artelier</a></li>
-	<li><a href="#" onClick="setDescription(this);" value="sth">STH Design</a></li>
-	<li><a href="#" onClick="setDescription(this);" value="next">Dalej >></a></li>
 </ul>
 
-
 <script language="JavaScript" > 
- function setDescription (itemMenu){
-	 setCurrentMenuDescription(itemMenu);
-	 highliteCurrentMenu(itemMenu);
- };
- var list = $("ul#divMenu.menu");
- setDescription (list.children().first().children().first());
- 
 </script>
 
 </body>

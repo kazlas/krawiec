@@ -1,29 +1,31 @@
 //K. Laskowski (C) 2014
 (function($, window) { //Module starts
+$(document).ready(function(){
+
   var currentMenuDescriptionId;
   
   //Make this function visible outside module
   window.setCurrentMenuDescription = function setCurrentMenuDescription (itemMenu) { 
 	currentMenuDescriptionId = $(itemMenu).attr("value");
+	highliteCurrentMenu(itemMenu);
+	resetDisplay(currentMenuDescriptionId);
   };
-  
 
-$(document).ready(function(){
+  var $menu = $("ul#divMenu.menu");
+  setCurrentMenuDescription ($menu.children().first().children().first());
 
-  resetDisplay ();
-
-  $("ul#divMenu").click(function() {
+  $menu.click(function() {
 	  animateCurtain ("div#divCurtain");
 	  animateDescription ("div#divDescription");
 
 	setTimeout(function () {
-		resetDisplay ();	
+		resetDisplay (currentMenuDescriptionId);	
 	} , 1000);
   });
-
   
-  function resetDisplay () {
-	showDescription ("div#divDescription", currentMenuDescriptionId, "pl");
+  
+  function resetDisplay (menuId) {
+	showDescription ("div#divDescription", menuId, "pl");
 	setCommonHeights ("div#divDescription", "div#divCurtain");
   }
 
