@@ -8,8 +8,11 @@ $(document).ready(function(){
   window.setCurrentMenuDescription = function setCurrentMenuDescription (itemMenu) { 
 	currentMenuDescriptionId = $(itemMenu).attr("value");
 	highliteCurrentMenu(itemMenu);
-	resetDisplay(currentMenuDescriptionId);
+	resetDisplay(currentMenuDescriptionId, getCurrentLang());
   };
+  window.changeDescritpionLang = function changeDescritpionLang (lang) {
+	resetDisplay(currentMenuDescriptionId, lang);
+  }
 
   var $menu = $("ul#divMenu.menu");
   setCurrentMenuDescription ($menu.children().first().children().first());
@@ -19,13 +22,13 @@ $(document).ready(function(){
 	  animateDescription ("div#divDescription");
 
 	setTimeout(function () {
-		resetDisplay (currentMenuDescriptionId);	
+		resetDisplay (currentMenuDescriptionId, getCurrentLang());	
 	} , 1000);
   });
   
   
-  function resetDisplay (menuId) {
-	showDescription ("div#divDescription", menuId, "pl");
+  function resetDisplay (menuId, lang) {
+	showDescription ("div#divDescription", menuId, lang);
 	setCommonHeights ("div#divDescription", "div#divCurtain");
   }
 

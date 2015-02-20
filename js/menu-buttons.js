@@ -7,15 +7,13 @@ $(document).ready(function(){
 		$(itemMenu).parent().siblings().children().removeClass("currentMenuItem");
 		$(itemMenu).addClass("currentMenuItem");
 	};
-  
-	showMenu("ul#divMenu", "pl");
+	window.showMenu = function showMenu (displayElement, lang) {
+		var menuJsonLang = getMenu(lang);
+		var menuHtml = getMenuHtml (menuJsonLang);
+		$(displayElement).html(menuHtml);
+	};
 
-  function showMenu (displayElement, lang) {
-	var menuJsonLang = getMenu(lang);
-	var menuHtml = getMenuHtml (menuJsonLang);
-	$(displayElement).html(menuHtml);
-  }
-
+	showMenu("ul#divMenu", getCurrentLang());
 
   function getMenuHtml (menuJsonLang) {
 	  var html = "";
