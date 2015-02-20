@@ -8,7 +8,7 @@ $(document).ready(function(){
 		$(itemMenu).addClass("currentMenuItem");
 	};
   
-	showMenu("ul#divMenu", "en");
+	showMenu("ul#divMenu", "pl");
 
   function showMenu (displayElement, lang) {
 	var menuJsonLang = getMenu(lang);
