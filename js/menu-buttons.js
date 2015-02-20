@@ -9,14 +9,13 @@
 
   
 $(document).ready(function(){
-	showMenu("div#divMenuJson", "pl");
+	showMenu("ul#divMenu", "pl");
 
 });
 
   function showMenu (displayElement, lang) {
 	var menuJsonLang = getMenu(lang);
 	var menuHtml = getMenuHtml (menuJsonLang);
-    $(displayElement).css("padding", 20);
 	$(displayElement).html(menuHtml);
   }
 

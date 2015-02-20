@@ -9,8 +9,9 @@
   
 
 $(document).ready(function(){
-
+/*
   resetDisplay ();
+*/
 
   $("ul#divMenu").click(function() {
 	  animateCurtain ("div#divCurtain");
@@ -20,7 +21,6 @@ $(document).ready(function(){
 		resetDisplay ();	
 	} , 1000);
   });
-
   
   function resetDisplay () {
 	showDescription ("div#divDescription", currentMenuDescriptionId, "pl");
