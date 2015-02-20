@@ -1,0 +1,45 @@
+.f1_container {
+    position:absolute;
+    top:390px;
+    left:10px;
+    margin:10px;
+    width: 32px;
+    height: 32px;
+    float:left;
+}
+.f1_container {
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+.f1_card {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: all 0.3s linear;
+    transform-style: preserve-3d;
+    transition: all 0.3s linear;
+}
+.f1_container:hover .f1_card {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.f1_container:active .f1_card {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.face.back {
+    display: block;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    background-image: URL(../img/flag_UK_flip.png);
+}
