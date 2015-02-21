@@ -26,16 +26,20 @@
             "title": "af.gda.pl",
             "paragraphs": [
 		{
+			"title" : "Customer:", 
+			"content" : "French language school. Graphic design & implementation. Year:&nbsp;2000-2003"
+		},
+		{
 			"title" : "Before:", 
-			"content" : ""
+			"content" : "\"At the beginning of the semester there are many calls from the people who want to enroll in a course, but they do not know the types of courses and prices. Explanations take a long time, because we have a lot of courses. And they are not able to decide during the conversation, because it requires checking their other plans. \""
 		},
 		{
 			"title" : "During:", 
-			"content" : ""
+			"content" : "\"You see, the idea of the prices on the website. It's probably not going to be good - after all, the competition also sees it?\" - \"Yes, they see. But would you sign up in a course without a price?\""
 		},
 		{
 			"title" : "After:", 
-			"content" : ""
+			"content" : "\"Sir, all now call and know what they want: they want to sign up for one and the same teacher. He has a good reputation, but his courses are already completed. Might we remove the names of the teachers now?\" - \"Isn't it better to organize more courses?\""
 		}
 	]
 
