@@ -81,6 +81,10 @@
             "title": "oval.pl",
             "paragraphs": [
 		{
+			"title" : "Customer:", 
+			"content" : ""
+		},
+		{
 			"title" : "Before:", 
 			"content" : ""
 		},
@@ -130,6 +134,10 @@
         "en": {
             "title": "konie.gda.pl",
             "paragraphs": [
+		{
+			"title" : "Customer:", 
+			"content" : ""
+		},
 		{
 			"title" : "Before:", 
 			"content" : ""
@@ -182,6 +190,10 @@
             "title": "artelier.edu.pl",
             "paragraphs": [
 		{
+			"title" : "Customer:", 
+			"content" : ""
+		},
+		{
 			"title" : "Before:", 
 			"content" : ""
 		},
@@ -228,6 +240,10 @@
         "en": {
             "title": "sthdesign.pl",
             "paragraphs": [
+		{
+			"title" : "Customer:", 
+			"content" : ""
+		},
 		{
 			"title" : "Before:", 
 			"content" : ""
@@ -365,19 +381,35 @@
 
         },
         "en": {
-            "title": "Teraz Ty!",
+            "title": "Now YOU!",
             "paragraphs": [
 		{
-			"title" : "Before:", 
+			"title" : "Customer:", 
+			"content" : "This place is waiting for you."
+		},
+		{
+			"title" : "", 
+			"content" : "Here you can write your story"
+		},
+		{
+			"title" : "Let's write it together.", 
 			"content" : ""
 		},
 		{
-			"title" : "During:", 
-			"content" : ""
+			"title" : "Contact:", 
+			"content" : "+48 88888 1028"
 		},
 		{
-			"title" : "After:", 
-			"content" : ""
+			"title" : "", 
+			"content" : "Mon.-Fri.: 10:00 - 18:00"
+		},
+		{
+			"title" : "", 
+			"content" : "<a href=\"mailto:k.laskowski@krawwwiec.pl\">k.laskowski@krawwwiec.pl</a>"
+		},
+		{
+			"title" : "", 
+			"content" : "POLAND: Gdańsk, Sopot, Gdynia."
 		}
 	]
 
