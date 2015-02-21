@@ -283,19 +283,35 @@
 
         },
         "en": {
-            "title": "Teraz Ty!",
+            "title": "How to make a Website?<br> Like a suit - at a good tailors'.",
             "paragraphs": [
 		{
-			"title" : "Before:", 
-			"content" : ""
+			"title" : "The clients:", 
+			"content" : "Support your projects by creating Web pages."
 		},
 		{
-			"title" : "During:", 
-			"content" : ""
+			"title" : "", 
+			"content" : "Because each is unique."
 		},
 		{
-			"title" : "After:", 
-			"content" : ""
+			"title" : "The craftsmenship:", 
+			"content" : "There are many known crafts: a tailor, a shoemaker, a hairdresser."
+		},
+		{
+			"title" : "",
+			"content" : "And one more - still new: a Webdesigner."
+		},
+		{
+			"title" : "The piece:", 
+			"content" : "Webpage."
+		},
+		{
+			"title" : "",
+			"content" : "The combination of looks, actions and text."
+		},
+		{
+			"title" : "", 
+			"content" : "Result of many thoughts and conversations with the client and the next milestone steps on the way to the final result."
 		}
 	]
 
