@@ -1,8 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Scada:400,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Arimo:400,700&subset=latin,latin-ext);
+
 html {
 }
 
 body {
-	font-size:14px;
 	margin:0px;
 	background-image: url(../img/background.jpeg);
 	background-repeat: no-repeat;	
@@ -35,11 +37,11 @@ body {
 }
 
 h2{
-	font-family: Arial, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-family: 'Scada', sans-serif;
 	font-size: 24px;
 }
 
 h3{
-	font-family: Arial, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-family: 'Arimo', sans-serif;
 	font-size: 18px;
 }
