@@ -35,7 +35,7 @@
 		},
 		{
 			"title" : "During:", 
-			"content" : "\"You see, the idea of the prices on the website. It's probably not going to be good - after all, the competition also sees it?\" - \"Yes, they see. But would you sign up in a course without a price?\""
+			"content" : "\"You see, the idea of the prices on the website. It's probably not going to be good - after all, the competitors also see that?\" - \"Yes, they see. But would you sign up for a course without a price?\""
 		},
 		{
 			"title" : "After:", 
@@ -136,19 +136,19 @@
             "paragraphs": [
 		{
 			"title" : "Customer:", 
-			"content" : ""
+			"content" : "The stable. Graphic design & implementation. Year: 2009."
 		},
 		{
 			"title" : "Before:", 
-			"content" : ""
+			"content" : "\"Do you use the Internet? How to put an offer?\""
 		},
 		{
 			"title" : "During:", 
-			"content" : ""
+			"content" : "\"I've laughed! Let's put this version with the horse.\""
 		},
 		{
 			"title" : "After:", 
-			"content" : ""
+			"content" : "\"Might you please delete this talking horse from the site? Now people come with children and they ask where is the horse that talks. I sold it this year.\""
 		}
 	]
 
@@ -191,19 +191,19 @@
             "paragraphs": [
 		{
 			"title" : "Customer:", 
-			"content" : ""
+			"content" : "The art school. Implementation, graphic design delivered by the customer. Year: 2010"
 		},
 		{
 			"title" : "Before:", 
-			"content" : ""
+			"content" : "\"And this is how the site would look like. I need it quickly, because now the summer ends and in the fall will open the school.\""
 		},
 		{
 			"title" : "During:", 
-			"content" : ""
+			"content" : "\"Thanks for doing that quickly. And now please change, so as I can change all things by myself\" - \"But this is totally different! It must be the content management system installed...\" - \"What? \""
 		},
 		{
 			"title" : "After:", 
-			"content" : ""
+			"content" : "\"The others, who use such things, say that on my site it is better. That it is easier to change the text, photos and everything. And that I can do that by myself.\""
 		}
 	]
 
@@ -242,19 +242,19 @@
             "paragraphs": [
 		{
 			"title" : "Customer:", 
-			"content" : ""
+			"content" : "Ship design office. Implementation, graphic design delivered by the customer. Year 2008"
 		},
 		{
 			"title" : "Before:", 
-			"content" : ""
+			"content" : "\"You see, here I would like to have the gallery below, so that when you move the slider underneath the whole picture appears.\""
 		},
 		{
 			"title" : "During:", 
-			"content" : ""
+			"content" : "\"In three languages.\""
 		},
 		{
 			"title" : "After:", 
-			"content" : ""
+			"content" : "\"It's exactly as in the picture I have sent you. Thank you.\""
 		}
 	]
 
@@ -314,7 +314,7 @@
 			"content" : "Because each is unique."
 		},
 		{
-			"title" : "The craftsmenship:", 
+			"title" : "The craftsmanship:", 
 			"content" : "There are many known crafts: a tailor, a shoemaker, a hairdresser."
 		},
 		{
@@ -397,6 +397,10 @@
 		},
 		{
 			"title" : "Contact:", 
+			"content" : "K. Laskowski"
+		},
+		{
+			"title" : "", 
 			"content" : "+48 88888 1028"
 		},
 		{
