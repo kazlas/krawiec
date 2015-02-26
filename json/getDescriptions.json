@@ -5,15 +5,15 @@
             "paragraphs": [
 		{
 			"title" : "Zamawiający:", 
-			"content" : "Szkoła języka francuskiego. Projekt graficzny + implementacja. Rok: 2000-2003"
+			"content" : "Szkoła języka francuskiego.<br>Projekt graficzny + implementacja. Rok: 2000-2003"
 		},
 		{
 			"title" : "Przedtem:", 
-			"content" : "\"Na początku semestru ciągle do nas dzwonią osoby, które chcą się zapisać na kurs, ale nie znają rodzajów kursów i cen. Wyjaśnianie trwa długo, bo mamy wiele kursów. A w trakcie rozmowy i tak klienci nie potrafią się zdecydować, bo to wymaga zastanowienia, sprawdzenia  przez nich innych planów.\""
+			"content" : "\"Na początku semestru ciągle do nas dzwonią osoby, które chcą się zapisać na kurs, ale nie znają rodzajów kursów <br>i cen. Wyjaśnianie trwa długo, bo mamy wiele kursów.<br> A w trakcie rozmowy i tak klienci nie potrafią się zdecydować, bo to wymaga zastanowienia, sprawdzenia  przez nich innych planów.\""
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : "\"Widzi Pan, ten pomysł z cenami na stronie. To chyba nie będzie dobre - przecież konkurencja też widzi, prawda?\" - \"Tak, widzą. Ale czy skłonna byłaby Pani zapisać się na kurs bez ceny?\""
+			"content" : "\"Widzi Pan, ten pomysł z cenami na stronie.<br> To chyba nie będzie dobre - przecież konkurencja też widzi, prawda?\" - \"Tak, widzą. Ale czy skłonna byłaby Pani zapisać się na kurs bez ceny?\""
 		},
 		{
 			"title" : "Potem:", 
@@ -27,19 +27,19 @@
             "paragraphs": [
 		{
 			"title" : "Customer:", 
-			"content" : "French language school. Graphic design & implementation. Year:&nbsp;2000-2003"
+			"content" : "French language school.<br> Graphic design & implementation. Year:&nbsp;2000-2003"
 		},
 		{
 			"title" : "Before:", 
-			"content" : "\"At the beginning of the semester there are many calls from the people who want to enroll in a course, but they do not know the types of courses and prices. Explanations take a long time, because we have a lot of courses. And they are not able to decide during the conversation, because it requires checking their other plans. \""
+			"content" : "\"At the beginning of the semester there are many calls from the people who want to enroll in a course, but they do not know the types of courses and prices. Explanations take a long time, because we have a lot of courses.<br> And they are not able to decide during the conversation, because it requires checking their other plans. \""
 		},
 		{
 			"title" : "During:", 
-			"content" : "\"You see, the idea of the prices on the website. It's probably not going to be good - after all, the competitors also see that?\" - \"Yes, they see. But would you sign up for a course without a price?\""
+			"content" : "\"You see, the idea of the prices on the website. It's probably not going to be good - after all, the competitors also see that?\" - \"Yes, they see. But would you sign up<br> for a course without a price?\""
 		},
 		{
 			"title" : "After:", 
-			"content" : "\"Sir, all now call and know what they want: they want to sign up for one and the same teacher. He has a good reputation, but his courses are already completed. Might we remove the names of the teachers now?\" - \"Isn't it better to organize more courses?\""
+			"content" : "\"Sir, all now call and know what they want:<br> they want to sign up for one and the same teacher. He has a good reputation, but his courses are already completed. Might we remove the names of the teachers now?\"<br> - \"Isn't it better to organize more courses?\""
 		}
 	]
 
@@ -64,15 +64,15 @@
 		},
 		{
 			"title" : "Przedtem:", 
-			"content" : "\"Rozwijamy się, nasze maszyny potrafią wybijać kilka tysięcy jaj na godzinę, cysternę ostatnio wysłaliśmy z tym. Skorupki utylizujemy, to wszystko jest zautomatyzowane, pragniemy podwyższyć poziom naszej obsługi i bezpieczeństwa klientów poprzez zakup zaawansowanych technologii produkcji, ale potencjalni klienci tego mogą nie znać, to nowość.\" "
+			"content" : "\"Rozwijamy się, nasze maszyny potrafią wybijać kilka tysięcy jaj na godzinę, cysternę ostatnio wysłaliśmy z tym. Skorupki utylizujemy, to wszystko jest zautomatyzowane, pragniemy podwyższyć poziom naszej obsługi<br> i bezpieczeństwa klientów poprzez zakup zaawansowanych technologii produkcji, ale potencjalni klienci tego mogą nie znać, to nowość.\" "
 		},
 		{
 			"title" : "W trakcie", 
-			"content" : "\"To są piekarze, cukiernicy, producenci likierów. Oni nie znają się na maszynach, pasteryzacji i homogenizacji żółtka i białka. Po co mają kupować tą masę jajową? Bo co im to daje? Pewnie Państwo to wszystko wiedzą..\" – \"Bo mają problem z głowy. Bo nie zatrują jedzenia salmonellą. A to są wciąż normalne jajka.\" – \"Czyli? Wygoda. Bezpieczeństwo. Zdrowie.\""
+			"content" : "\"To są piekarze, cukiernicy, producenci likierów.<br> Oni nie znają się na maszynach, pasteryzacji<br> i homogenizacji żółtka i białka. Po co mają kupować tą masę jajową? <br>Co im to daje? Pewnie Państwo to wszystko wiedzą..\" <br>– \"Bo mają problem z głowy. Bo nie zatrują jedzenia salmonellą. A to są wciąż normalne jajka.\" <br>– \"Czyli? Wygoda. Bezpieczeństwo. Zdrowie.\""
 		},
 		{
 			"title" : "Potem:", 
-			"content" : "\"Zaczynamy produkować biszkopty. Trzeba będzie to dodać na stronie. Będziemy w kontacie.\""
+			"content" : "\"Zaczynamy produkować biszkopty. Trzeba będzie <br>to dodać na stronie. Będziemy w kontacie.\""
 		}
 	]
 
@@ -82,19 +82,19 @@
             "paragraphs": [
 		{
 			"title" : "Customer:", 
-			"content" : "Food ingredient manufacturer: liquid eggs. Graphic design & implementation. Year: 2004"
+			"content" : "Food ingredient manufacturer: liquid eggs.<br> Graphic design & implementation. Year: 2004"
 		},
 		{
 			"title" : "Before:", 
-			"content" : "\"We are expanding. Our machines are able to strike several thousand eggs per hour, we have recently sent a tank truck of it. Eggshells are recycled, everything is automated, we want to increase the level of service and safety of our customers through the purchase of advanced manufacturing technology, but the potential customers may not be familiar with this, it is a novelty. \""
+			"content" : "\"We are expanding. Our machines are able to strike several thousand eggs per hour, we have recently sent<br> a tank truck of it.<br> Eggshells are recycled, everything is automated, we want to increase the level of service and safety of our customers through the purchase of advanced manufacturing technology, but the potential customers may not be familiar with this, it is a novelty. \""
 		},
 		{
 			"title" : "During:", 
-			"content" : "\"They are the bakers, confectioners, producers of liqueurs. They do not know your machines, a pasteurization and the homogenization of yolk and albumen. Why should they buy that the liquid eggs? What it gives to them? I guess you know that..\" - \"Because they have the problem out of their head. Because they do not poison food with salmonella. And there are still normal eggs. \"- \"So? Convenience. Safety. Health.\""
+			"content" : "\"They are the bakers, confectioners, producers of liqueurs. They do not know your machines, a pasteurization<br> and the homogenization of yolk and albumen. Why should they buy the liquid eggs? What it gives to them? I guess you know that..\"<br> - \"Because they have the problem out of their head. Because they do not poison food with salmonella.<br> And there are still normal eggs. \"<br> - \"So? Convenience. Safety. Health.\""
 		},
 		{
 			"title" : "After:", 
-			"content" : "\"We start to produce biscuits. We will need to add that to the site. We will be in contact.\""
+			"content" : "\"We start to produce biscuits.<br> We will need to add that to the site. We will be<br> in contact.\""
 		}
 	]
 
@@ -126,7 +126,7 @@
 		},
 		{
 			"title" : "Potem:", 
-			"content" : "Po roku. \"Ja Ciebie bardzo proszę: usuń tego gadającego konia ze strony. Bo do mnie teraz ludzie przyjeżdżają z dziećmi i one się pytają, gdzie jest ten koń, który mówi. Ja go przecież sprzedałem w tym roku.\""
+			"content" : "Po roku. \"Ja Ciebie bardzo proszę: usuń tego gadającego konia ze strony. Bo do mnie teraz ludzie przyjeżdżają <br>z dziećmi i one się pytają, gdzie jest ten koń, który mówi.<br> Ja go przecież sprzedałem w tym roku.\""
 		}
 	]
 
@@ -148,7 +148,7 @@
 		},
 		{
 			"title" : "After:", 
-			"content" : "\"Might you please delete this talking horse from the site? Now people come with children and they ask where is the horse that talks. I sold it this year.\""
+			"content" : "\"Might you please delete this talking horse from the site? Now people come with children and they ask<br> where is the horse that talks. I sold it this year.\""
 		}
 	]
 
@@ -199,11 +199,11 @@
 		},
 		{
 			"title" : "During:", 
-			"content" : "\"Thanks for doing that quickly. And now please change, so as I can change all things by myself\" - \"But this is totally different! It must be the content management system installed...\" - \"What? \""
+			"content" : "\"Thanks for doing that quickly. And now please change,<br> so as I can change all things by myself\" - \"But this is totally different! It must be the content management system installed...\" - \"What? \""
 		},
 		{
 			"title" : "After:", 
-			"content" : "\"The others, who use such things, say that on my site it is better. That it is easier to change the text, photos and everything. And that I can do that by myself.\""
+			"content" : "\"The others, who use such things, say that on my site<br> it is better. That it is easier to change the text,<br> photos and everything. And that I can do that by myself.\""
 		}
 	]
 
@@ -246,7 +246,7 @@
 		},
 		{
 			"title" : "Before:", 
-			"content" : "\"You see, here I would like to have the gallery below, so that when you move the slider underneath the whole picture appears.\""
+			"content" : "\"You see, here I would like to have the gallery below,<br> so that when you move the slider underneath the whole picture appears.\""
 		},
 		{
 			"title" : "During:", 
@@ -315,7 +315,7 @@
 		},
 		{
 			"title" : "The craftsmanship:", 
-			"content" : "There are many known crafts: a tailor, a shoemaker, a hairdresser."
+			"content" : "There are many known crafts: a tailor, a shoemaker,<br> a hairdresser."
 		},
 		{
 			"title" : "",
