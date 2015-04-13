@@ -1,19 +1,18 @@
 //K. Laskowski (C) 2014
-(function($, window) { //Module starts
-$(document).ready(function(){
+window.onload = (function($, globals) { //Module starts
 
 	//Make function accessible outside module
-	window.highliteCurrentMenu = function highliteCurrentMenu (itemMenu) { 
+	globals.highliteCurrentMenu = function (itemMenu) { 
 		$(itemMenu).parent().siblings().children().removeClass("currentMenuItem");
 		$(itemMenu).addClass("currentMenuItem");
 	};
-	window.showMenu = function showMenu (displayElement, lang) {
+	globals.showMenu = function (displayElement, lang) {
 		var menuJsonLang = getMenu(lang);
 		var menuHtml = getMenuHtml (menuJsonLang);
 		$(displayElement).html(menuHtml);
 	};
 
-	showMenu("ul#divMenu", getCurrentLang());
+
 
   function getMenuHtml (menuJsonLang) {
 	  var html = "";
@@ -30,6 +29,5 @@ $(document).ready(function(){
 	  return html;
   }
 
-});
 
 })(jQuery, window);//Module ends

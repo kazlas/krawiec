@@ -7,10 +7,12 @@ window.onload = (function($, globals) { //Module starts
   globals.setCurrentLang = function (lang) { 
 	currentLang = lang;
   };
-  globals.getCurrentLang = function getCurrentLang () { 
+
+  globals.getCurrentLang = function () { 
 	return currentLang;
   };
-  window.changeDescriptionLang  = function changeDescriptionLang (lang) {
+
+  globals.changeDescriptionLang = function (lang) {
 	setCurrentLang (lang);
 	showMenu("ul#divMenu", lang);
 	changeDescritpionLang (lang);

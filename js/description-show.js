@@ -1,23 +1,20 @@
 //K. Laskowski (C) 2014
-(function($, window) { //Module starts
-$(document).ready(function(){
+window.onload = (function($, globals) { //Module starts
 
   var currentMenuDescriptionId;
   
   //Make this function visible outside module
-  window.setCurrentMenuDescription = function setCurrentMenuDescription (itemMenu) { 
+  globals.setCurrentMenuDescription = function (itemMenu) { 
 	currentMenuDescriptionId = $(itemMenu).attr("value");
 	highliteCurrentMenu(itemMenu);
 	resetDisplay(currentMenuDescriptionId, getCurrentLang());
   };
-  window.changeDescritpionLang = function changeDescritpionLang (lang) {
+
+  globals.changeDescritpionLang = function (lang) {
 	resetDisplay(currentMenuDescriptionId, lang);
   }
 
-  var $menu = $("ul#divMenu.menu");
-  setCurrentMenuDescription ($menu.children().first().children().first());
-
-  $menu.click(function() {
+  globals.menuClick = (function() {
 	  animateCurtain ("div#divCurtain");
 	  animateDescription ("div#divDescription");
 
@@ -25,7 +22,7 @@ $(document).ready(function(){
 		resetDisplay (currentMenuDescriptionId, getCurrentLang());	
 	} , 1000);
   });
-  
+
   
   function resetDisplay (menuId, lang) {
 	showDescription ("div#divDescription", menuId, lang);
@@ -120,9 +117,6 @@ $(document).ready(function(){
 
 	  return html;
   }
-
-
-});
 
 
 })(jQuery, window);//Module ends
