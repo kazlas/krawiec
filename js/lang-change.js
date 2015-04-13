@@ -1,14 +1,13 @@
 //K. Laskowski (C) 2014
-(function($, window) { //Module starts
-$(document).ready(function(){
+window.onload = (function($, globals) { //Module starts
 
   var currentLang;
 
   //Make this function visible outside module
-  window.setCurrentLang = function setCurrentLang (lang) { 
+  globals.setCurrentLang = function (lang) { 
 	currentLang = lang;
   };
-  window.getCurrentLang = function getCurrentLang () { 
+  globals.getCurrentLang = function getCurrentLang () { 
 	return currentLang;
   };
   window.changeDescriptionLang  = function changeDescriptionLang (lang) {
@@ -17,9 +16,5 @@ $(document).ready(function(){
 	changeDescritpionLang (lang);
   };
 
-  setCurrentLang("pl");
-
-
-});
 
 })(jQuery, window);//Module ends
