@@ -1,5 +1,5 @@
 //K. Laskowski (C) 2014
-window.onload = (function($, globals) { //Module starts
+(function($, globals) { //Module starts
 
 	//Make function accessible outside module
 	globals.highliteCurrentMenu = function (itemMenu) { 
