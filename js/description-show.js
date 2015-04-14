@@ -11,7 +11,7 @@ window.onload = (function($, globals) { //Module starts
   };
 
   globals.changeDescritpionLang = function (lang, elementDescription, elementCurtain) {
-	resetDisplay(currentMenuDescriptionId, lang, elementDescription, elementCurtain);
+	resetDisplay(currentMenuDescriptionId, lang, elementCurtain, elementDescription);
   }
 
   globals.menuClick = (function(elementCurtain, elementDescription) {
