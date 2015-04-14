@@ -4,14 +4,14 @@ window.onload = (function($, globals) { //Module starts
   var currentMenuDescriptionId;
   
   //Make this function visible outside module
-  globals.setCurrentMenuDescription = function (itemMenu) { 
+  globals.setCurrentMenuDescription = function (itemMenu, elementCurtain, elementDescription) { 
 	currentMenuDescriptionId = $(itemMenu).attr("value");
 	highliteCurrentMenu(itemMenu);
-	resetDisplay(currentMenuDescriptionId, getCurrentLang());
+	resetDisplay(currentMenuDescriptionId, getCurrentLang(), elementCurtain, elementDescription);
   };
 
-  globals.changeDescritpionLang = function (lang) {
-	resetDisplay(currentMenuDescriptionId, lang);
+  globals.changeDescritpionLang = function (lang, elementDescription, elementCurtain) {
+	resetDisplay(currentMenuDescriptionId, lang, elementDescription, elementCurtain);
   }
 
   globals.menuClick = (function(elementCurtain, elementDescription) {
@@ -19,14 +19,15 @@ window.onload = (function($, globals) { //Module starts
 	  animateDescription (elementDescription);
 
 	setTimeout(function () {
-		resetDisplay (currentMenuDescriptionId, getCurrentLang());	
+		resetDisplay (currentMenuDescriptionId, getCurrentLang(),
+				elementCurtain, elementDescription);	
 	} , 1000);
   });
 
   
-  function resetDisplay (menuId, lang) {
-	showDescription ("div#divDescription", menuId, lang);
-	setCommonHeights ("div#divDescription", "div#divCurtain");
+  function resetDisplay (menuId, lang, elementCurtain, elementDescription) {
+	showDescription (elementDescription, menuId, lang);
+	setCommonHeights (elementDescription, elementCurtain);
   }
 
   function animateCurtain (element) {

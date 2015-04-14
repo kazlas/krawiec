@@ -26,7 +26,7 @@
 <ul  id="divMenu" class="menu">
 </ul>
 
-<a href="#" onclick="changeDescriptionLang ('en')">
+<a href="#" onclick="changeLang ('en')">
 <div class="f1_container">
     <div class="f1_card">
         <div class="front face">
@@ -37,7 +37,7 @@
 </div>
 </a>
 
-<a href="#" onclick="changeDescriptionLang ('pl')">
+<a href="#" onclick="changeLang ('pl')">
 <div class="f1_container">
     <div class="f1_card">
         <div class="front face">
@@ -55,12 +55,15 @@
   showMenu("ul#divMenu", this.getCurrentLang());
 
   var $menu = $("ul#divMenu.menu");
+  var elementCurtain = "div#divCurtain";
+  var elementDescription = "div#divDescription";
 
   $menu.click(function() { 
-	menuClick("div#divCurtain", "div#divDescription");
+	menuClick(elementCurtain, elementDescription);
   });
 
-  setCurrentMenuDescription ($menu.children().first().children().first());
+  setCurrentMenuDescription ($menu.children().first().children().first(),
+  	elementCurtain, elementDescription);
 
 //});
 
