@@ -54,16 +54,15 @@
   setCurrentLang('pl');
   showMenu("ul#divMenu", this.getCurrentLang());
 
-  var $menu = $("ul#divMenu.menu");
-  var elementCurtain = "div#divCurtain";
   var elementDescription = "div#divDescription";
-
+  var elementCurtain = "div#divCurtain";
+  var $menu = $("ul#divMenu.menu");
   $menu.click(function() { 
-	menuClick(elementCurtain, elementDescription);
+	menuClick(elementDescription, elementCurtain);
   });
 
   setCurrentMenuDescription ($menu.children().first().children().first(),
-  	elementCurtain, elementDescription);
+  	elementDescription, elementCurtain);
 
 //});
 
