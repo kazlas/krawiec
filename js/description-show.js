@@ -14,9 +14,9 @@ window.onload = (function($, globals) { //Module starts
 	resetDisplay(currentMenuDescriptionId, lang);
   }
 
-  globals.menuClick = (function() {
-	  animateCurtain ("div#divCurtain");
-	  animateDescription ("div#divDescription");
+  globals.menuClick = (function(elementCurtain, elementDescription) {
+	  animateCurtain (elementCurtain);
+	  animateDescription (elementDescription);
 
 	setTimeout(function () {
 		resetDisplay (currentMenuDescriptionId, getCurrentLang());	

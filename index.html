@@ -55,7 +55,11 @@
   showMenu("ul#divMenu", this.getCurrentLang());
 
   var $menu = $("ul#divMenu.menu");
-  $menu.click(function() { menuClick(); });
+
+  $menu.click(function() { 
+	menuClick("div#divCurtain", "div#divDescription");
+  });
+
   setCurrentMenuDescription ($menu.children().first().children().first());
 
 //});
