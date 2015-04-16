@@ -12,9 +12,9 @@
 	return currentLang;
   };
 
-  globals.changeLang = function (lang, elementDescription, elementCurtain) {
+  globals.changeLang = function (lang, elementMenu, elementDescription, elementCurtain) {
 	setCurrentLang (lang);
-	showMenu("ul#divMenu", lang);
+	showMenu(elementMenu, lang);
 	changeDescritpionLang (lang, elementDescription, elementCurtain);
   };
 
