@@ -1,5 +1,6 @@
 //K. Laskowski (C) 2014
 (function($, globals) { //Module starts
+$(document).ready(function () {
 
 	//Make function accessible outside module
 	globals.highliteCurrentMenu = function (itemMenu) { 
@@ -29,5 +30,5 @@
 	  return html;
   }
 
-
-})(jQuery, window);//Module ends
+});
+})(jQuery, window)//Module ends
