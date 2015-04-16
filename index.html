@@ -49,10 +49,10 @@
 </a>
 
 <script>
-//$(document).ready(function(){
+$(document).ready(function () {
 
   setCurrentLang('pl');
-  showMenu("ul#divMenu", this.getCurrentLang());
+  showMenu("ul#divMenu", getCurrentLang());
 
   var elementDescription = "div#divDescription";
   var elementCurtain = "div#divCurtain";
@@ -64,7 +64,7 @@
   setCurrentMenuDescription ($menu.children().first().children().first(),
   	elementDescription, elementCurtain);
 
-//});
+});
 
 </script>
 

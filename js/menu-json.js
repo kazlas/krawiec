@@ -1,5 +1,6 @@
 //K. Laskowski (C) 2014
 (function($, window) { //Module starts
+$(document).ready(function () {
 
   //Make this functions visible outside module
   window.getMenu = function getMenu (lang) {
@@ -21,5 +22,5 @@
   })();
 
 
-
-})(jQuery, window);//Module ends
+});
+})(jQuery, window)//Module ends
